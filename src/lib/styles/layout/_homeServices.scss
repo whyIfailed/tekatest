@@ -1,0 +1,263 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+.fifth-section .section-main {
+   @include respond-to(xs) {
+      padding-left: 16px;
+      width: 100%;
+      @include flex-row-between;
+      // @include vertical-line-pseudo;
+   }
+   @include respond-to(sm) {}
+   @include respond-to(md) {}
+   @include respond-to(lg) {
+      position: relative;
+      padding-left: 48px;
+      padding-top: 16px;
+      padding-bottom: 48px;
+      height: 100%;
+      margin-left: 24px;
+      width: 90%;
+      @include flex-row-base;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      @include vertical-line-pseudo;
+   }
+   @include respond-to(xl) {
+
+   }
+
+   .tagline {
+      @include respond-to(xs) {
+         @include font-saira;
+         font-size: 36px;
+         font-weight: 800;
+         @include text-gradient;  
+         margin-top: 12px;
+         overflow: visible;
+         z-index: 1;
+         position: relative;
+         height: 100%;
+         &:before {
+            content: "Dịch vụ chăm sóc khách hàng";
+            font-family: 'Saira', sans-serif;
+            text-transform: uppercase;
+            font-size: 36px;
+            font-weight: 800;
+            @include text-shadow-teka;
+            position: absolute;
+            top: 0;
+         }
+      }
+      @include respond-to(sm) {}
+      @include respond-to(md) {
+         width: 60%;
+         flex-wrap: wrap;
+      }
+      @include respond-to(lg) {
+         width: 40%;
+         font-size: 44px;
+         &:before {
+            content: "Dịch vụ chăm sóc khách hàng";
+            font-family: 'Saira', sans-serif;
+            text-transform: uppercase;
+            font-size: 44px;
+            font-weight: 800;
+            @include text-shadow-teka;
+            position: absolute;
+            top: 0;
+         }
+      }
+      @include respond-to(xl) {}
+   }
+
+   .details {
+      position: relative;
+      width: 100%;
+      .service-cards {
+         @include respond-to(xs) {
+            position: relative;
+            width: 100%;
+            margin-top: 24px;
+            margin-bottom: 48px;
+            @include flex-row-base;
+            gap: 16px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+         }
+         @include respond-to(sm) {
+            
+         }
+         @include respond-to(md) {
+            
+         }
+         @include respond-to(lg) {
+         }
+         @include respond-to(xl) {
+            
+         }
+         .card {
+            @include respond-to(xs) {
+               width: 140px;
+               height: 80px;
+               padding: 12px;
+               border: 1px solid rgba($color: #FF6037, $alpha: 0.3);
+               border-radius: 0 12px 12px 12px;
+               @include flex-column-base;
+               justify-content: space-between;
+               gap: 8px;
+               position: relative;
+               
+               p {
+                  text-transform: capitalize;
+                  font-weight: 600;
+                  font-size: 16px;
+                  color: var(--color-primary-text);
+               }
+               svg {
+                  width: 40px;
+                  height: 40px;
+                  color: var(--color-primary-sixty);
+               }
+            }
+            @include respond-to(sm) {}
+            @include respond-to(md) {
+               width: 24vw;
+               p{
+                  font-size: 20px;
+               }
+            }
+            @include respond-to(lg) {
+               width: 9vw;
+               height: 150px;
+               top:20;
+               p {
+                  text-transform: capitalize;
+                  font-weight: 600;
+                  font-size: 20px;
+                  color: var(--color-primary-text);
+               }
+               svg {
+                  width: 64px;
+                  height: 64px;
+                  color: var(--color-primary-sixty);
+               }
+            }
+            @include respond-to(xl) {
+               p {
+                  font-size: 24px;
+               }
+            }
+
+         }
+      }
+      .customer-cards {
+         @include respond-to(xs) {
+            position: relative;
+         }
+         @include respond-to(sm) {}
+         @include respond-to(md) {}
+         @include respond-to(lg) {
+            position: relative;
+            margin-top: 40px;
+            gap: 24px;
+         }
+         @include respond-to(xl) {}
+
+         h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--color-primary-thirty);
+            text-transform: capitalize;
+         }
+         .cards-container {
+            @include respond-to(xs) {
+               @include flex-row-base;
+               align-items: center;
+               justify-content: flex-start;
+               flex-wrap: wrap;
+               gap: 24px;
+               width: 80%;
+               overflow: hidden;
+               .card {
+                  width: 35vw;
+                  max-width: 140px;
+                  height: auto;
+                  overflow: hidden;
+                  @include flex-row-base;
+                  align-items: center;
+                  justify-content: center;
+                  img {
+                     width: 100%;
+                     height: 100%;
+                     object-fit: contain;
+                     filter: grayscale(100%);
+                     opacity: .8;
+                     transition: filter .1s ease-in-out;
+                     &:hover {
+                        filter: grayscale(0%);
+                        transition: filter .1s ease-in;
+                     }
+                  }
+               }
+            }
+            @include respond-to(sm) {
+            }
+            @include respond-to(md) {
+               width: 90%;
+               .card {
+                  width: 32vw;
+                  max-width: 150px;
+                  height: auto;
+                  overflow: hidden;
+                  @include flex-row-base;
+                  align-items: center;
+                  justify-content: center;
+                  img {
+                     width: 100%;
+                     height: 100%;
+                     object-fit: contain;
+                     filter: grayscale(100%);
+                     opacity: .8;
+                     transition: filter .1s ease-in-out;
+                     &:hover {
+                        filter: grayscale(0%);
+                        transition: filter .1s ease-in;
+                     }
+                  }
+               }
+            }
+            @include respond-to(lg) {
+               @include flex-row-base;
+               align-items: center;
+               gap: 40px;
+               width: 90%;
+               overflow: hidden;
+               .card {
+                  width: fit-content;
+                  max-width: 180px;
+                  height: auto;
+                  overflow: hidden;
+                  @include flex-row-base;
+                  align-items: center;
+                  justify-content: center;
+                  top:20;
+                  img {
+                     width: 100%;
+                     height: 100%;
+                     object-fit: contain;
+                     filter: grayscale(100%);
+                     opacity: .8;
+                     transition: filter .1s ease-in-out;
+                     &:hover {
+                        filter: grayscale(0%);
+                        transition: filter .1s ease-in;
+                     }
+                  }
+               }
+            }
+            @include respond-to(xl) {}
+         }
+      }
+   }
+}

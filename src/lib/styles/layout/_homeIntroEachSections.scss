@@ -1,0 +1,382 @@
+@import '../abstracts/mixins'; 
+@import '../abstracts/variables';
+
+.third-section {
+   @include respond-to(xs) {
+     padding-bottom: 64px;
+   }
+   @include respond-to(sm) {
+      
+   }
+   @include respond-to(md) {
+      padding-bottom: 128px;
+   }
+   @include respond-to(lg) {
+   }
+   @include respond-to(xl) {
+
+   }
+   .section-main {
+      @include respond-to(xs) {
+         position: relative;
+         width: 100%;
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         align-items: flex-start;
+      }
+      @include respond-to(sm) {
+         
+      }
+      @include respond-to(md) {
+         
+      }
+      @include respond-to(lg) {
+         position: relative;
+         width: 90%;
+         margin: 0 auto;
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         align-items: flex-start;
+         top: 0;
+         left: 0;
+      }
+      @include respond-to(xl) {
+      }
+      &:before {
+         content: "";
+         @include vertical-line-gradient;
+         position: absolute;
+      }
+      .main-wrapper{
+         @include respond-to(xs) { 
+            position: relative;
+            width: 100%;
+            height: auto;
+            padding: 24px 24px 24px 24px;
+            top: 24px;
+            border-radius: 0 24px 24px 24px;
+            background-color: var(--color-primary-text);
+            @include flex-column-base;
+            align-items: flex-start;
+            overflow: hidden;
+         } 
+         @include respond-to(sm) { } 
+         @include respond-to(md) { 
+            padding: 24px 24px 24px 24px;
+         } 
+         @include respond-to(lg) {
+            padding: 24px;
+            position: relative;
+            top: 32px;
+            left: 48px;
+            width: 150vw;
+            height: auto;
+            padding: 24px 32px;
+            border-radius: 0 24px 24px 24px;
+            background-color: var(--color-primary-text);
+            @include flex-row-between;
+            align-items: flex-start;
+            overflow: hidden;
+         } 
+         @include respond-to(xl) { }
+         .xl-col-left {
+            @include respond-to(xs) {
+               width: 100%;
+               order: 2;
+            }
+            @include respond-to(sm) {
+               
+            }
+            @include respond-to(md) {
+               
+            }
+            @include respond-to(lg) {
+               padding-top: 24px;
+               width: 100%;
+               @include flex-row-base;
+               height: fit-content;
+               padding-bottom: 50px;
+            }
+            @include respond-to(xl) {
+
+            }
+            .tabs-feature {
+               @include respond-to(xs) {
+                  margin-top: 16px;
+                  @include flex-column-base;
+                  gap: 16px;
+                  position: relative;
+               }
+               @include respond-to(sm) {}
+               @include respond-to(md) {
+                  @include flex-row-base;
+                  flex-wrap: wrap;
+                  margin-top: 24px;
+                  gap: 16px;
+               }
+               @include respond-to(lg) {
+                  @include flex-column-base;
+                  position: relative;
+                  width: 30%;
+                  height: fit-content;
+                  top: 32px;
+                  gap: 16px;
+                  margin-top: 0;
+               }
+               @include respond-to(xl) {
+                  width: 35%;
+               }
+               
+               button {
+                  @include respond-to(xs) {
+                     padding: 10px 32px 10px 12px;
+                     cursor: pointer;
+                     transition: all 0.2s ease-in-out;
+                     font-size: .75rem;
+                     @include flex-row-center-between;
+                     gap: 12px;
+                     border-radius: 0 16px 16px 16px;
+                     color: var(--color-white);
+                     text-transform: capitalize;
+                     font-size: 14px;
+                     font-weight: 600;
+                     color: var(--color-primary-sixty);
+                     transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s;
+                  }
+                  @include respond-to(sm) {
+                     
+                  }
+                  @include respond-to(md) {
+                     order: 1;
+                     font-size: 16px;
+                  }
+                  @include respond-to(lg) {
+                     order: 1;
+                     padding: 10px 32px 10px 16px;
+                     font-size: 1rem;
+                     @include flex-row-center-between;
+                     gap: 12px;
+                     border-radius: 0 16px 16px 16px;
+                     font-size: 14px;
+                  }
+                  @include respond-to(xl) {
+                     order:1;
+                  }
+                  
+               }
+               button.inactive {
+                  background-color: transparent;
+                  border: 1px solid ;
+                  @include border-gradient;
+               }
+   
+               button.active {
+                  background-color: var(--color-primary-sixty);
+                  border: 1px solid transparent; 
+                  font-weight: 600;
+                  text-transform: capitalize;
+                  color: var(--color-white);
+               }
+            }
+            p {
+               color: var(--color-white);
+            }
+            .accordion-body{
+               @include respond-to(xs) {
+                  @include flex-column-base;
+                  justify-content: flex-start;
+                  gap: 12px;
+                  padding-top: 8px;
+                  padding-bottom: 12px;
+                  height: fit-content;
+                  margin-top: 24px;
+                  position: relative;
+               }
+               @include respond-to(sm) {
+
+               }
+               @include respond-to(md) {
+                  width: auto;
+                  height: 180px;
+                  order:2;
+                  padding-bottom: 0;
+               }
+               @include respond-to(lg) {
+                  height: auto;
+                  width: 50%;
+                  order: 2;
+                  @include flex-column-base;
+               }
+               @include respond-to(xl) {
+               }
+
+               .list-subitem {
+                  @include respond-to(xs) {
+                     @include flex-row-base;
+                     align-items: flex-start;
+                     padding-left: 24px;
+                     height: 100%;
+                     width: 84%;
+                     position: relative;
+                     flex-direction: column;
+                  }
+                  @include respond-to(sm) {
+
+                  }
+                  @include respond-to(md) {
+                     height: auto;
+                     width: auto;
+                  }
+                  @include respond-to(lg) {
+                     
+                  }
+                  @include respond-to(xl) {
+
+                  }
+                  &:after {
+                     content: "";
+                     // @include vertical-line-gradient;
+                     background-color: #65A2F2;
+                     position: absolute;
+                     top: 14px;
+                     left: 30px;
+                     height: 95%;
+                     width: 1px;
+                  }
+
+                  &.active {
+                     background-color: var((--color-primary-sixty));
+                  }
+                  &::before {
+                     content: "";
+                     position: absolute;
+                     width: 14px;
+                     height: 14px;
+                     border-radius: 0 5px 5px 5px;
+                     border: 1px solid var(--color-secondary-blue-light);
+                  }
+                  &:last-child::after {
+                  width: 0;
+                  display: none;
+                  }
+
+                  h4.subitem-title {
+                     @include respond-to(xs) {
+                        color: var(--color-secondary-blue-light);
+                        position: relative;
+                        top: -5px;
+                        left:32px;
+                        text-transform: capitalize;
+                        font-weight: 600;
+                        font-size: 16px;
+                        margin-bottom: 4px;
+                     }
+                     @include respond-to(sm) {
+                     }
+                     @include respond-to(md) {
+                     }
+                     @include respond-to(lg) {
+                        font-size: 16px;
+                     }
+                     @include respond-to(xl) {
+                     }
+
+                  }
+                  p.subitem-caption {
+                     @include respond-to(xs) {
+                        color: var(--color-white);
+                        position: relative;
+                        left: 32px;
+                        top: -5px;
+                        font-size: 13x;
+                        font-weight: normal;
+                        font-weight: 400;
+                     }
+                     @include respond-to(sm) {
+
+                     }
+                     @include respond-to(md) {
+
+                     }
+                     @include respond-to(lg) {
+                        font-size: 16px;
+                        width: 100%;
+                     }
+                     @include respond-to(xl) {
+                        // width: 80%;
+                     }
+                  }
+               
+               }
+               .list-item.highlight {
+                  background-color: green;
+               }
+            }
+            .btn-secondary {
+               width: auto;
+               position: relative;
+               @include respond-to(xs) {
+
+               }
+               @include respond-to(sm) {}
+               @include respond-to(md) {
+                  width: fit-content;
+                  float: inline-end;
+               }
+               @include respond-to(lg) {
+                  order: 3;
+                  position: absolute;
+                  bottom: 20px;
+                  right: 30px;
+                  &:before {
+                     content: "";
+                     width: 1px;
+                     height: 600px;
+                     position: absolute;
+                     background-color: #65A2F2;
+                     bottom: 40px;
+                     right: 120px;
+                     z-index: 0;
+                  }
+               }
+               @include respond-to(xl) {}
+            }
+         }
+         .photo-container {
+            @include respond-to(xs) {
+               width: 100%;
+               border-radius: 0 16px 16px 16px;
+               overflow: hidden;
+               background-color: black;
+               @include flex-column-center-between;
+               align-items: center;
+               position: relative;
+               order: 1;
+               z-index: 0;
+            }
+            @include respond-to(sm) {
+
+            }
+            @include respond-to(md) {
+
+            }
+            @include respond-to(lg) {
+               z-index: 1;
+               position: relative;
+               height: auto;
+            }
+            @include respond-to(xl) {
+
+            }
+            img {
+               position: relative;
+               width: 100%;
+               height: 100%;
+               object-fit: contain;
+            }
+         }
+      }
+   }
+}

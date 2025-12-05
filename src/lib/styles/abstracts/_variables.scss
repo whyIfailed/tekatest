@@ -1,0 +1,74 @@
+:root {
+   --color-primary-sixty: #FF6037;
+   --color-primary-thirty: #083063;
+   --color-primary-text: #04172F;
+   --color-secondary-blue-light: #65A2F2;
+   --color-white: #fefefe;
+   --color-background-light:#111;
+
+   --spacing-xs: 0.25rem;
+   --spacing-sm: 0.5rem;
+   --spacing-md: 1rem;
+   --spacing-lg: 1.5rem;
+   --spacing-xl: 2rem;
+   
+   --font-size-sm: 0.875rem;
+   --font-size-base: 1rem;
+   --font-size-lg: 1.125rem;
+   --font-size-xl: 1.25rem;
+   --font-size-2xl: 1.5rem;
+
+};
+
+$breakpoint-xs: 320px;
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+
+// Responsive mixin for media queries
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == xs {
+    @media (min-width: $breakpoint-xs) {
+      @content;
+    }
+  }
+  @if $breakpoint == sm {
+    @media (min-width: $breakpoint-sm) {
+      @content;
+    }
+  }
+  @if $breakpoint == md {
+    @media (min-width: $breakpoint-md) {
+      @content;
+    }
+  }
+  @if $breakpoint == lg {
+    @media (min-width: $breakpoint-lg) {
+      @content;
+    }
+  }
+  @if $breakpoint == xl {
+    @media (min-width: $breakpoint-xl) {
+      @content;
+    }
+  }
+}
+
+// Responsive typography
+@mixin responsive-text($mobile-size, $desktop-size) {
+  font-size: $mobile-size;
+  
+  @include respond-to(md) {
+    font-size: $desktop-size;
+  }
+}
+
+// Responsive padding
+@mixin responsive-padding($mobile: 1rem, $desktop: 2rem) {
+  padding: $mobile;
+  
+  @include respond-to(md) {
+    padding: $desktop;
+  }
+}

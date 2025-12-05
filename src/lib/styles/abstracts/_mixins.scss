@@ -1,0 +1,206 @@
+@import '../abstracts/variables';
+
+@mixin font-saira-semicondensed {
+   font-family: "Saira Semi Condensed", sans-serif;
+}
+@mixin font-saira {
+   font-family: "Saira", sans-serif;
+}
+
+@mixin text-normal-dark {
+   @include font-saira-semicondensed();
+   color: var(--color-primary-text);
+}
+
+@mixin text-normal-white {
+   @include font-saira-semicondensed();
+   font-style: normal;
+   font-weight: 400;
+   color: var(--color-primary-text);
+}
+
+@function raw($text) { 
+   @return unquote($text); 
+}
+@mixin box-style($padding, $bg-color, $radius) {
+   padding: $padding;
+   background-color: $bg-color;
+   border-radius: $radius;
+   &:hover {
+      opacity: 0.9;
+   }
+}
+@mixin border-gradient {
+   border: 1px solid;
+   border-image: linear-gradient(104deg, var(--color-primary-sixty), var(--color-primary-text)) 1;
+   width: fit-content;
+}
+@mixin border-gradient-single {
+   border-image: linear-gradient(104deg, var(--color-primary-sixty), var(--color-primary-text)) 1;
+   width: fit-content;
+}
+@mixin flex-row-base {
+   box-sizing: content-box;
+   display: flex;
+   flex-direction: row;
+   justify-content:  flex-start;
+   flex-wrap: wrap;
+   align-items: baseline;
+}
+@mixin flex-column-base {
+   box-sizing: content-box;
+   display: flex;
+   flex-direction: column;
+   justify-content:  flex-start;
+   flex-wrap: wrap;
+   align-items: baseline;
+}
+@mixin flex-column-start-between {
+   @include flex-column-base;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+@mixin flex-column-center-between {
+   @include flex-column-base;
+   align-items: center;
+   justify-content: space-between;
+}
+
+@mixin flex-row-between {
+   @include flex-row-base;
+   justify-content: space-between;
+}
+
+@mixin flex-row-center-between {
+   @include flex-row-base;
+   align-items: center;
+   justify-content: space-between;
+}
+
+@mixin button-base {
+   box-sizing: content-box;
+   cursor: pointer;
+   transition: all 0.2s ease;
+   padding: 4px 16px;
+   @include button-text;
+   @include flex-center-button;
+}
+@mixin button-text {
+   @include font-saira-semicondensed();
+   font-size: var(--font-size-sm);
+   font-weight: 500;
+   line-height: 1;
+   text-transform: uppercase;
+}
+@mixin bg-linear-teka {
+   background: linear-gradient(
+      104deg, 
+      var(--color-primary-sixty) 0%,
+      var(--color-primary-sixty) 32%,
+      var(--color-primary-thirty) 64%,
+      var(--color-primary-thirty) 100%
+   );
+}
+
+@mixin text-gradient {
+   @include bg-linear-teka;
+   background-clip: text;
+   color: transparent;
+}
+
+@mixin text-shadow-teka {
+   position: absolute;
+   color: transparent;
+   z-index: 2;
+   text-shadow:
+      3px 3px 3px rgba(0,0,0,0.02), 
+      2px 2px 3px rgba(255,96,55,0.3);
+}
+
+@mixin button-teka-primary {
+   @include button-base;
+   @include button-style-teka;
+}
+
+@mixin button-teka-secondary {
+   @include button-base;
+   @include button-style-teka-outlined;
+}
+
+@mixin button-rounded-solid {
+   @include button-base;
+   @include button-style-rounded-solid;
+}
+
+@mixin button-rounded-outlined {
+   @include button-base;
+   @include button-style-rounded-outlined;
+}
+
+@mixin flex-center-button {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 12px;
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+
+@mixin button-style-teka-solid {
+   border: 1px solid var(--color-primary-sixty);
+   border-radius: 0 12px 12px 12px;
+   background-color: var(--color-primary-sixty);
+   color: var(--color-white);
+}
+@mixin button-style-teka-outlined {
+   border: 1px solid var(--color-primary-sixty);
+   border-radius: 0 12px 12px 12px;
+   background-color: transparent;
+   color: var(--color-primary-sixty);
+}
+@mixin button-style-rounded-solid {
+   border: 1px solid var(--color-primary-sixty);
+   border-radius: 100px;
+   background-color: var(--color-primary-sixty);
+   color: var(--color-white);
+}
+@mixin button-style-rounded-outlined {
+   border: 1px solid var(--color-primary-sixty);
+   border-radius: 100px;
+   background-color: transparent;
+   color: var(--color-primary-sixty);
+}
+
+@mixin vertical-line-gradient {
+   position: absolute;
+   top: -0;
+   left: 12px;
+   width: 1px;
+   height: 100%;
+   background:linear-gradient(to bottom, var(--color-primary-sixty), #fff ) border-box;
+}
+
+@mixin bg-gradient-vertical-01 {
+   background: linear-gradient(to bottom, var(--color-primary-sixty), #fff );
+}
+
+@mixin bg-gradient-vertical-02 {
+   background: linear-gradient(to bottom, rgba($color: #FF6037, $alpha:0.7), rgba($color: #04172F, $alpha:0.89) 80%);
+}
+@mixin bg-gradient-vertical-03 {
+   background: linear-gradient(to bottom, rgba($color: #FF6037, $alpha:0.7), rgba($color: #04172F, $alpha:0.89) 80%);
+}
+
+@mixin vertical-line-pseudo {
+   &:before {
+      content: "";
+      @include vertical-line-gradient;
+      position: absolute;
+      top: 0;
+      left: 0px;
+   }
+}

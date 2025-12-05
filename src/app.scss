@@ -1,0 +1,29 @@
+/* -------------------------------- */
+/* 2. LOGIC & ABSTRACTIONS (@use) */
+/* -------------------------------- */
+@use "$lib/styles/abstracts/variables";
+@use "$lib/styles/abstracts/mixins";
+
+@layer theme, base, components, ustilities;
+@import "tailwindcss";
+
+/* -------------------------------- */
+/* 3. BASE & STRUCTURE (@import) */
+/* -------------------------------- */
+@import "$lib/styles/base/global";
+@import "$lib/styles/base/typography";
+
+@import "$lib/styles/layout/header";
+@import "$lib/styles/layout/footer";
+
+/* -------------------------------- */
+/* 4. COMPONENTS (@import) */
+/* -------------------------------- */
+@import "$lib/styles/components/button";
+@import "$lib/styles/components/card";
+
+/* -------------------------------- */
+/* 5. PAGE-SPECIFIC (@import) */
+/* -------------------------------- */
+@import '$lib/styles/pages/home';
+@import "$lib/styles/pages/contact";

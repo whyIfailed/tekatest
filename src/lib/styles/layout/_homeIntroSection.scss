@@ -1,0 +1,419 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+.second-section {
+   @include respond-to(xs) {
+      margin-top: 72px;
+      margin-bottom: 48px;
+   }
+   @include respond-to(sm) {
+      
+   }
+   @include respond-to(md) {
+      margin-bottom: 0px;
+   }
+   @include respond-to(lg) {
+      margin-top: 64px;
+   }
+   @include respond-to(xl) {
+
+   }
+}
+
+.section-title-wrapper {
+   .eyebrown-title {
+      @include respond-to(xs) {
+         padding: 8px 16px;
+         @include border-gradient;
+         @include font-saira-semicondensed;
+         font-weight: 500;
+         color: var(--color-primary-thirty);
+         width: 100%;
+         position: relative;
+      }
+      @include respond-to(sm) {
+         width: fit-content;
+      }
+      @include respond-to(md) {
+        
+      }
+      @include respond-to(lg) {
+         
+      }
+      @include respond-to(xl) {
+         width: fit-content;
+      }
+   }
+}
+
+.second-section .section-title-wrapper {
+   .eyebrown-title {
+      @include respond-to(xs) {
+      }
+      @include respond-to(sm) {
+      }
+      @include respond-to(md) {
+        opacity: 0; 
+        top: 40px;
+      }
+      @include respond-to(lg) {
+         
+      }
+      @include respond-to(xl) {
+      }
+   }
+}
+.xl-col-left {
+   .tagline {
+      @include respond-to(xs) {
+         @include font-saira;
+         font-weight: 800;
+         @include text-gradient;  
+         overflow: visible;
+         z-index: 1;
+         position: relative;
+         height: 100%;
+         font-size: 38px;
+         margin-top: 32px;
+         margin-bottom: 32px;
+      }
+      @include respond-to(sm) {
+         
+      }
+      @include respond-to(md) {
+      }
+      @include respond-to(lg) {
+         // font-size: 34px;
+         margin-top: 12px;
+         margin-bottom: 0;
+         position: relative;
+         top: 40px;
+         opacity: 0;
+      }
+      @include respond-to(xl) {
+         font-size: 44px;
+
+      }
+      &:before {
+         @include respond-to(xs) {
+            content: "công cụ hỗ trợ dành cho môi giới chuyên nghiệp";
+            @include text-shadow-teka;
+            font-family: 'Saira', sans-serif;
+            text-transform: uppercase;
+            font-weight: 800;
+            @include text-shadow-teka;
+            font-size: 38px;
+            position: absolute;
+            left: 0;
+         }
+         @include respond-to(sm) {
+            
+         }
+         @include respond-to(md) {
+         }
+         @include respond-to(lg) {
+            // font-size: 34px;
+            position: absolute;
+            top: 0;
+         }
+         @include respond-to(xl) {
+            font-size: 44px;
+         }
+      }
+
+   }
+   .details { // ul
+      @include respond-to(xs) {
+         margin-top: 32px;
+         margin-bottom: 32px;
+         gap: 10px;
+      }
+      @include respond-to(sm) {}
+      @include respond-to(md) {}
+      @include respond-to(lg) {
+         margin-top: 16px;
+         margin-bottom: 0;
+         position: relative;
+         top: 40px;
+         opacity: 0;
+      }
+      @include respond-to(xl) {}
+
+      li {
+         @include flex-row-base;
+         margin-bottom: 12px;
+         i {
+            width: 16px;
+            height: 16px;
+            border: 1px solid var(--color-primary-sixty);
+            border-radius: 0 6px 6px 6px;
+            position: relative;
+            margin-right: 12px;
+         }
+         p {
+            width: 90%;
+            font-weight: 400;
+            color: var(--color-primary-thirty);
+         }
+      }
+   }
+}
+
+.second-section .section-main  {
+
+   @include respond-to(xs) {
+      height: 100%;
+      position: relative;
+      @include flex-column-base;
+      margin-left: 0;
+      padding-left: 0;   
+   }
+   @include respond-to(sm) {
+      
+   }
+   @include respond-to(md) {
+      
+   }
+   @include respond-to(lg) {
+      padding-left: 48px;
+      @include flex-row-between;
+      margin-left: 24px;
+      align-items: flex-start;
+      height: 500px;
+      position: relative;
+      &:before {
+         content: "";
+         @include vertical-line-gradient;
+      }
+   }
+   @include respond-to(xl) {
+
+   }
+
+   .xl-col-left {
+      @include respond-to(xs) {
+         width: 100%;
+      }
+      @include respond-to(sm) {
+         
+      }
+      @include respond-to(md) {
+         width: 66%;
+      }
+      @include respond-to(lg) {
+         width: 38%;
+      }
+      @include respond-to(xl) {
+
+   }
+   }
+
+   .features-wrapper {
+      @include respond-to(xs) {
+         width: 100%;
+         @include flex-column-base;
+         align-items: center;
+         gap: 4px;
+         position: relative;
+         top: 0;
+         display: none;
+      }
+      @include respond-to(sm) {
+
+      }
+      @include respond-to(md) {
+         @include flex-row-base;
+         align-items: center;
+         justify-content: flex-end;
+         gap: 16px;
+         width: 100%;
+         top: -108px;
+      }
+      @include respond-to(lg) {
+         width: 59%;
+         top: -48px;
+         justify-content: flex-start;
+      }
+      @include respond-to(xl) {
+         width: 55%;
+      }
+      
+      .feature-col {
+         @include respond-to(xs) {
+            text-align: center;
+            border-radius: 0 24px 24px 24px;
+            @include flex-row-base;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            transition: all 200ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+            width: 100%;
+            height: 96px;
+         }
+         @include respond-to(sm) {
+
+         }
+         @include respond-to(md) {
+            @include flex-column-center-between;
+            width: 200px;
+            transition: all 300ms ease-in-out;
+            height: 0;
+            opacity: 0;
+         }
+         @include respond-to(lg) {
+            background-size: 130%;
+            width: 184px;
+            @include flex-column-center-between;
+         }
+         @include respond-to(xl) {
+
+         }
+
+         &:before{
+            @include respond-to(xs) {
+               content: "";
+               @include bg-gradient-vertical-02;
+               position: absolute;
+               height: 100%;
+               background-clip: border-box;
+               z-index: 2;
+               width: 100%;
+            } 
+            @include respond-to(sm) { } 
+            @include respond-to(md) { } 
+            @include respond-to(lg) { 
+               width: 200px;
+            } 
+            @include respond-to(xl) { }
+         }
+         
+         .text-main {
+            @include respond-to(xs) {
+               position: relative;
+               @include flex-row-base;
+               gap: 24px;
+               z-index: 3;
+               color: var(--color-white);
+               align-items: center;
+               margin-left: 24px;
+            } 
+            @include respond-to(sm) { } 
+            @include respond-to(md) {
+               @include flex-column-base;
+               justify-content: center;
+               align-items: center;
+               position: absolute;
+               top:50%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+               margin-left: 0;
+            } 
+            @include respond-to(lg) { 
+            } 
+            @include respond-to(xl) { }
+
+            svg {
+               @include respond-to(xs) {
+                  width: 40px;
+                  height: 40px;
+               } 
+               @include respond-to(sm) { } 
+               @include respond-to(md) { } 
+               @include respond-to(lg) {   
+                  width: 88px;
+                  height: 88px;
+               } 
+               @include respond-to(xl) { }
+            }
+            span {
+               @include respond-to(xs) {
+                  font-weight: 500;
+                  font-size: 24px;
+                  text-transform: capitalize;
+                  letter-spacing: .2px;
+                  color: var(--color-white);
+               } 
+               @include respond-to(sm) { } 
+               @include respond-to(md) {
+                  font-size: 20px;
+               } 
+               @include respond-to(lg) {    
+                  font-size: 22px;
+                  margin-top: 16px;
+               } 
+               @include respond-to(xl) { }
+            }
+         }
+         .icon-button {
+            position: absolute;
+            bottom: 16px;
+            z-index: 3;
+            color: var(--color-white);
+         }
+
+         .overlay-bottom {
+            @include respond-to(xs) {
+               width: 100%;
+               height: 100%;
+               img {
+                  // object-fit: cover;
+                  width: 100%;
+                  height: 100%;
+               }
+            }
+            @include respond-to(sm) {}
+            @include respond-to(md) {}
+            @include respond-to(lg) {
+            }
+            @include respond-to(xl) {}
+         }
+
+      }
+
+      .feature-col:first-child {
+         @include respond-to(xs) {
+            // height: 118px;
+         } 
+         @include respond-to(sm) { } 
+            
+         @include respond-to(md) { 
+            // height: 304px;
+         } 
+         @include respond-to(lg) { 
+            // height: 404px;
+            // height: 10%;
+         } 
+         @include respond-to(xl) { }
+      }
+      .feature-col:nth-child(2) {
+       @include respond-to(xs) {
+         } 
+         @include respond-to(sm) { } 
+         @include respond-to(md) {
+            // height: 504px;
+         } 
+         @include respond-to(lg) { 
+            // height: 564px;
+            // height: 15%;
+         } 
+         @include respond-to(xl) { 
+
+         }
+      }
+      .feature-col:last-child {
+         @include respond-to(xs) {
+         } 
+         @include respond-to(sm) {
+         } 
+         @include respond-to(md) {
+            // height: 320px;
+         } 
+         @include respond-to(lg) { 
+            // height: 12%;
+            // height: 380px;
+         } 
+         @include respond-to(xl) { }
+      }
+   }
+}

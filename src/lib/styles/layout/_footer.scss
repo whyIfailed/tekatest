@@ -1,0 +1,118 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+footer {
+   @include respond-to(xs) {
+      position: relative;
+      margin-top: 48px;
+      padding-top: 48px;
+      padding-bottom: 64px;
+      padding-left: 32px;
+      border: 1px solid;
+      border-image: linear-gradient(104deg,#FF6037 0%, #ffffff 32%,rgba(8,48,99,.1)) 1;
+      height: 100%;
+      width: 90%;
+      @include flex-row-base;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 8vw;
+      margin: 0 auto;
+   }
+   @include respond-to(sm) {
+      
+   }
+   @include respond-to(md) {
+   }
+   @include respond-to(lg) {
+      width: 100%;
+      padding-left: 0;
+      justify-content: center;
+      max-width: 1280px;
+   }
+   @include respond-to(xl) {
+
+   }
+
+   .contact-wrapper {
+      @include respond-to(xs) {
+
+      }
+      @include respond-to(sm) {}
+      @include respond-to(md) {
+         width: 100%;
+         @include flex-row-base;
+         flex-wrap: nowrap;
+         gap: 92px;
+      }
+      @include respond-to(lg) {
+         width: auto;
+         @include flex-column-base;
+         flex-wrap: nowrap;
+         gap: 0px;
+      }
+      @include respond-to(xl) {}
+      .contact-item {
+         margin-bottom: 32px;
+         h2 {
+            @include font-saira-semicondensed;
+            font-size: 44px;
+            font-weight: 900;
+            position: relative;
+            @include text-gradient;
+            line-height: 1;
+         }
+         h2:first-child {
+            &:before {
+               content: "Phone";
+               position: absolute;
+               font-family: 'Saira Condensed', sans-serif;
+               text-transform: uppercase;
+               font-size: 38px;
+               font-weight: 800;
+               @include text-shadow-teka;
+               position: absolute;
+               top: 0;
+            }
+         }
+         h2:last-child {
+            &:before {
+               content: "Email";
+               position: absolute;
+               text-transform: uppercase;
+               font-family: 'Saira Condensed', sans-serif;
+               text-transform: uppercase;
+               font-size: 38px;
+               font-weight: 800;
+               @include text-shadow-teka;
+               position: absolute;
+               top: 0;
+            }
+         }
+         h4 {
+            @include font-saira-semicondensed;
+            font-size: 30px;
+            font-weight: 800;
+            line-height: 1;
+         }
+      }
+   }
+   .sitemap-wrapper {
+      @include flex-column-base;
+      gap: 8px;
+      width: 200px;
+      .sitemap-item {
+         @include font-saira-semicondensed;
+         display: block;
+         height: 28px;
+         color: var(--color-primary-thirty);
+         font-weight: 500;
+      }
+   }
+   .branding-wrapper {
+      position: relative;
+      @include flex-column-base;
+      gap: 24px;
+      justify-content: flex-end;
+   }
+}
+

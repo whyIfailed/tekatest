@@ -1,0 +1,466 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+.section-main {
+   @include respond-to(xs) {
+
+   }
+   @include respond-to(sm) {
+
+   }
+   @include respond-to(md) {
+
+   }
+   @include respond-to(lg) {
+      &:before {
+         content: "";
+         @include vertical-line-gradient;
+         position: absolute;
+         top: 0;
+         left: 64px;
+      }
+   }
+   @include respond-to(xl) {
+
+   }
+}
+
+.fourth-section {
+   padding-bottom: 48px;
+   position: relative;
+   width: 100%;
+   .section-main {
+      @include respond-to(xs) {
+         position: relative;
+         padding-top: 12px;
+         padding-left: 16px;
+         width: 100%;
+      }
+      @include respond-to(sm) {
+      }
+      @include respond-to(md) {
+         
+      }
+      @include respond-to(lg) {
+         padding-top: 32px;
+         padding-left: 64px;
+         &:before {
+            left: 32px;
+         }
+      }
+      @include respond-to(xl) {
+         padding-top: 32px;
+         padding-left: 104px;
+      }
+
+      .tagline {
+         @include respond-to(xs) {
+            width: 100%;
+            @include font-saira;
+            font-size: 30px;
+            font-weight: 800;
+            @include text-gradient;  
+            margin-top: 12px;
+            overflow: visible;
+            z-index: 1;
+            position: relative;
+            height: 100%;
+         }
+         @include respond-to(sm) {
+            
+         }
+         @include respond-to(md) {
+            
+         }
+         @include respond-to(lg) {
+            width: 60%;
+            font-size: 38px;
+            margin-top: 12px;
+         }
+         @include respond-to(xl) {
+            font-size: 44px;
+         }
+         &:before {
+            @include respond-to(xs) {
+               content: "dễ dàng mở rộng năng suất & tiềm năng";
+               @include text-shadow-teka;
+               font-family: 'Saira', sans-serif;
+               text-transform: uppercase;
+               font-size: 30px;
+               font-weight: 800;
+               @include text-shadow-teka;
+               position: absolute;
+               top: 0;
+            }
+            @include respond-to(sm) {
+               
+            }
+            @include respond-to(md) {
+               
+            }
+            @include respond-to(lg) {
+               font-size: 38px;
+               position: absolute;
+               top: 0;
+            }
+            @include respond-to(xl) {
+               font-size: 44px;
+
+            }
+         }
+      }
+      .content-wrapper {
+         @include respond-to(xs) {
+            position: relative;
+            border-radius: 0 24px 24px 24px;
+            padding: 0px;
+            overflow: hidden;
+            height: auto;
+            @include flex-column-base;
+            align-items: flex-start;
+         }
+         @include respond-to(sm) {
+            
+         }
+         @include respond-to(md) {
+            
+         }
+         @include respond-to(lg) {
+            position: relative;
+            border-radius: 0 24px 24px 24px;
+            padding: 16px;
+            overflow: hidden;
+            height: auto;
+            @include flex-row-base;
+            align-items: flex-start;
+         }
+         @include respond-to(xl) {
+
+         }
+      }
+      .xl-col-left {
+         @include respond-to(xs) {
+            position: relative;
+            width: 100%;
+            height: auto;
+            padding: 24px;
+            padding-left: 32px;
+            padding-top: 32px;
+            background-color: rgba($color: #04172F, $alpha: 0.7);
+            border-radius: 0 0 0 20px;
+            z-index: 2;
+         }
+         @include respond-to(sm) {
+            
+         }
+         @include respond-to(md) {
+            
+         }
+         @include respond-to(lg) {
+            width: 50%;
+            height: 100%;
+            padding: 24px;
+            padding-left: 48px;
+            padding-top: 32px;
+            background-color: rgba($color: #04172F, $alpha: 0.9);
+            border-radius: 0 0 0 20px;
+            z-index: 2;
+         }
+         @include respond-to(xl) {
+
+         }
+         .whychoose-item {
+            @include respond-to(xs) {
+               width: 100%;
+               margin-bottom: 32px;
+               position: relative;
+            }
+            @include respond-to(sm) {
+
+            }
+            @include respond-to(md) {
+
+            }
+            @include respond-to(lg) {
+            }
+            @include respond-to(xl) {
+               // &:before {
+               //    content: "";
+               //    height: 100%;
+               //    width: 1px;
+               //    background-color: #FF6037;
+               //    position: absolute;
+               //    right:40px;
+               // }
+            }
+            h3 {
+               @include font-saira-semicondensed;
+               color: var(--color-primary-sixty);
+               font-size: 24px;
+               font-weight: 600;
+               margin-bottom: 8px;
+            }
+            p {
+               @include respond-to(xs) {
+                  width: 100%;
+                  @include font-saira-semicondensed;
+                  color: var(--color-white);
+                  font-size: 16px;
+                  font-weight: 400;
+                  margin-bottom: 12px;
+               }
+               @include respond-to(sm) {
+
+               }
+               @include respond-to(md) {
+                  font-size: 16px;
+               }
+               @include respond-to(lg) {
+                  width: 80%;
+               }
+               @include respond-to(xl) {
+
+               }
+            }
+         }
+      }
+      .xl-col-right {
+         @include respond-to(xs) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 3;
+            width: 100%;
+            height: 100%;
+         }
+         @include respond-to(sm) {
+            
+         }
+         @include respond-to(md) {
+            
+         }
+         @include respond-to(lg) {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 49%;
+            @include flex-column-base;
+         }
+         @include respond-to(xl) {
+
+         }
+
+         .decor-icon {
+            @include respond-to(xs) {
+               position: relative;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               width: 10vw;
+               height: 10vw;
+               background: rgba($color: #04172F, $alpha: 0.6);
+               border-radius: 0 24px 24px 24px;
+               transition: all 100ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+               border: 1px solid rgba($color: #65A2F2, $alpha: .5);
+            }
+            @include respond-to(sm) {
+
+            }
+            @include respond-to(md) {
+
+            }
+            @include respond-to(lg) {
+
+            }
+            @include respond-to(xl) {
+
+            }
+            svg {
+               top: 0;
+               left: 0;
+               width: 3vw;
+               height: 3vw;
+               color: #FF6037;
+               transition: all 100ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+               @include respond-to(xs) {
+                  width: 6vw;
+                  height: 6vw; 
+               } 
+               @include respond-to(sm) { } 
+               @include respond-to(md) { } 
+               @include respond-to(lg) { }
+               @include respond-to(xl) {
+               }
+            }
+            &:first-child {
+               @include respond-to(xs) {
+                  position: relative;
+                  left: 70%;
+                  top: 24px;
+               }
+               @include respond-to(sm) {
+               }
+               @include respond-to(md) {
+               }
+               @include respond-to(lg) {
+                  position: absolute;
+                  top:2vw;
+                  left: 14vw;
+                  // &:before {
+                  //    content: "";
+                  //    position: absolute;
+                  //    left: -20vw;
+                  //    width: 20vw;
+                  //    height: 1px;
+                  //    z-index: 3;
+                  //    background:  rgba($color: #FF6037, $alpha: 0.6);
+                  // }
+                  &:hover {
+                     background: rgba($color: #04172F, $alpha: 0.9);
+                  }
+                  &:hover svg {
+                     top: -12px;
+                     left: -12px;
+                     width: 7w;
+                     height: 7w;
+                  }
+                  svg {
+                     width: 4vw;
+                     height: 4vw; 
+                  }
+               }
+               @include respond-to(xl) {
+               }
+            }
+            &:nth-child(2) {
+               @include respond-to(xs) {
+                  width: 14vw;
+                  height: 14vw;
+                  position: absolute;
+                  left: 46vw;
+                  top: 68vw;
+
+               }
+               @include respond-to(sm) {
+               }
+               @include respond-to(md) {
+                  width: 14vw;
+                  height: 14vw;
+                  position: absolute;
+                  left: 76vw;
+                  top: 26vw;
+               }
+               @include respond-to(lg) {
+                  width: 14vw;
+                  height: 14vw;
+                  position: absolute;
+                  left: 6vw;
+                  top: 30vw;
+                  // &:before {
+                  //    content: "";
+                  //    position: absolute;
+                  //    left: -14vw;
+                  //    width: 14vw;
+                  //    height: 1px;
+                  //    z-index: 3;
+                  //    background:  rgba($color: #FF6037, $alpha: 0.6);
+                  // }
+                  &:hover {
+                     background: rgba($color: #04172F, $alpha: 0.9);
+                     & > svg {
+                        width: 5w;
+                        height:5w;
+                     }
+                  }
+                  svg {
+                     width: 4vw;
+                     height: 4vw;
+                  }
+               }
+               @include respond-to(xl) {
+                  left: 6vw;
+                  top: 18vw;
+               }
+            }
+            &:last-child {
+               @include respond-to(xs) {
+                  width: 16vw;
+                  height: 20vw;
+                  position: absolute;
+                  left: 64vw;
+                  top: 110vw;
+               }
+               @include respond-to(sm) {}
+               @include respond-to(md) {
+                  left: 52vw;
+                  top:46vw;
+               }
+               @include respond-to(lg) {
+                  width: 16vw;
+                  height: 20vw;
+                  position: absolute;
+                  left: 24vw;
+                  top: 56vw;
+                  // &:before {
+                  //    content: "";
+                  //    position: absolute;
+                  //    left: -30vw;
+                  //    width: 30vw;
+                  //    height: 1px;
+                  //    z-index: 3;
+                  //    background:  rgba($color: #FF6037, $alpha: 0.6);
+                  // }
+                  &:hover {
+                     background: rgba($color: #04172F, $alpha: 0.9);
+                     & > svg {
+                        width: 7w;
+                        height: 7w;
+                     }
+                  }
+                  svg {
+                     width: 6vw;
+                      height: 6vw;
+                  }
+               }
+               @include respond-to(xl) {
+                  left: 22vw;
+                  top:26vw;
+               }
+            }
+         }
+         
+      }
+      .photo-container {
+         @include respond-to(xs) {
+            display: none;
+         }
+         @include respond-to(sm) {
+
+         }
+         @include respond-to(md) {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+         }
+         @include respond-to(lg) {
+            display: flex;
+            img {
+               // position: absolute;
+               // top: 50%;
+               // left: 50%;
+               // transform: translateX(-50%) translateY(-50%);
+               width: 140%;
+               height: auto;
+               object-fit: cover;
+            }
+         }
+         @include respond-to(xl) {
+
+         }
+      }
+   }
+}

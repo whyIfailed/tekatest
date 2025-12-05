@@ -1,0 +1,692 @@
+{  "seo": {
+      "description":"",
+      "tags":"",
+      "keywords":""
+   },
+   "topSection":{  
+      "section_index":1,
+      "title":"",
+      "prod_title":"phần mềm quản lý bất động sản",
+      "headline":"tự tin chốt deal",
+      "caption":"Quản lý từng chi tiết dữ liệu bất động sản sẽ mang đến sự tiện lợi và tự tin khi tư vấn cho khách hàng",
+
+      "tags": [
+         {
+            "title":"thông tin",
+            "href":"#thong-tin"
+         },
+         {
+            "title":"tìm kiếm",
+            "href":"#tim-kiem"
+         },
+         {
+            "title":"bộ lọc",
+            "href":"bo-loc"
+         },
+         {
+            "title":"bản đồ quy hoạch",
+            "href":"#ban-do-quy-hoach"
+         },
+         {
+            "title":"tiềm năng",
+            "href":"#tien-nang"
+         },
+         {
+            "title":"đối tác",
+            "href":"#doi-tac"
+         },
+         {
+            "title":"công ty",
+            "href":"#cong-ty"
+         },
+         {
+            "title":"cá nhân",
+            "href":"#ca-nhan"
+         },
+         {
+            "title":"bảng giá",
+            "href":"#bang-gia"
+         },
+         {
+            "title":"liên hệ",
+            "href":"#lien-he"
+         }
+      ],
+      "imagePath":"assets/img/home/topSection@2x.png",
+      "alt":"chi tiết, bất đất sản, thông tin, nhà đất",
+      "figcaption":"",
+      
+      "cta":{
+         "title":"khám phá",
+         "href":"#gioi-thieu-tinh-nang",
+         "target":""
+      },
+
+      "otherImages":{
+         "verticalLines" : "assets/img/vertical_lines.png"
+       }
+       
+   },
+   "introSection": {
+      "section_index":2,
+      "title":"giới thiệu tính năng",
+      "prod_title":"",
+      "headline":"công cụ hỗ trợ dành cho môi giới chuyên nghiệp",
+      "caption":"",
+      "content":[
+         "Thao tác nhập thông tin và quản lý kho dữ liệu thông tin bất động sản nhanh chóng.",
+         "Tìm kiếm với bộ lọc đa năng và linh hoạt.",
+         "Bản đồ quy hoạch cập nhật mới nhất 2025",
+         "Tiện lợi sử dụng trên smartphone"
+      ],
+      "tags": "",
+      "images": [
+         {
+            "title":"tính năng quản lý",
+            "imagePath":"/assets/img/home/manage.png",
+            "alt":"",
+            "figcaption":"",
+            "iconName":"Table",
+            "iconButton":"ChevronDown",
+            "iconClass":"xx"
+         },
+         {
+            "title":"bản đồ quy hoạch",
+            "imagePath":"/assets/img/home/map.png",
+            "alt":"",
+            "figcaption":"",
+            "iconName":"Map",
+            "iconButton":"ChevronDown",
+            "iconClass":"xx"
+         },
+         {
+            "title":"tính năng bảo mật",
+            "imagePath":"/assets/img/home/secure.png",
+            "alt":"",
+            "figcaption":"",
+            "iconName":"Shield",
+            "iconButton":"ChevronDown",
+            "iconClass":"xx"
+         }
+      ],
+      "cta":""
+   },
+   "introEachFeatures": {
+      "section_index":3,
+      "title":"chi tiết tính năng",
+      "prod_title":"",
+      "headline":"",
+      "caption":"",
+      "tags": "",
+      "content" : [
+         {
+            "tabTitle":"tính năng quản lý",
+            "tabID":"a0",
+            "activeTab":false,
+            "class":"textInactive",
+            "imagePath":"/assets/img/home/dashboard.png",
+            "alt":"chi tiết, bất đất sản, thông tin, nhà đất",
+            "imageClass":"",
+            "iconName":"Table",
+            "subitem": [
+               {
+                  "title":"Bộ lọc đa năng",
+                  "titleID":"a00",
+                  "caption":"Lọc nhiều thông tin, chi tiết bất động sản, ưu điểm, kết cấu, giấy phép, phường xã mới sát nhập.",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-a00",
+                     "imagePath":"static/assets/img/one.png",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               },
+               {
+                  "title":"Nhập nhiều thông tin chi tiết",
+                  "titleID":"a01",
+                  "caption":"Các loại bất động sản hiện có trên thị trường, nhập/upload pháp lý & sổ hồng.",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-a01",
+                     "imagePath":"static/assets/img/one.png",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               },
+               {
+                  "title":"quản lý thư mục cá nhân",
+                  "titleID":"a02",
+                  "caption":"Lưu các loại bất động theo nhiều thư mục ưa thích theo mỗi tiêu chí riêng.",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-a02",
+                     "imagePath":"",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               },
+               {
+                  "title":"Góc xin hàng",
+                  "titleID":"a03",
+                  "caption":"Có thể giao lưu share hàng nội bộ với nhau.",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-a03",
+                     "imagePath":"",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               },
+               {
+                  "title":"nhập/xuất file data",
+                  "titleID":"a04",
+                  "caption":"",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-a04",
+                     "imagePath":"",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               },
+               {
+                  "title":"tiện lợi sử dụng trên smartphone",
+                  "titleID":"a05",
+                  "caption":"",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-a05",
+                     "imagePath":"",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               }
+            ]
+         },
+         {
+            "tabTitle":"bản đồ quy hoạch tekamap",
+            "tabID":"b0",
+            "activeTab":true,
+            "class":"textInactive",
+            "imagePath":"/assets/img/home/map2.png",
+            "alt":"chi tiết, bất đất sản, thông tin, nhà đất",
+            "imageClass":"",
+            "iconName":"Map",
+            "cta" :{
+               "title":"dùng thử",
+               "href" : "https://map.tekadev.vn",
+               "target":"_blank"
+            },
+
+            "subitem": [
+               {
+                  "title":"cập nhật tỉnh thành mới sát nhập",
+                  "titleID":"b00",
+                  "caption":"Tp. Hồ Chí Minh, Vũng Tàu, Bình Dương",
+                  "class":"highlight",
+                  "iconName":"Map",
+                  "images":{
+                     "imageID": "img-b00",
+                     "imagePath":"static/assets/img/map.png",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               },
+               {
+                  "title":"hơn 10 triệu thửa đất, nhiều chi tiết",
+                  "titleID":"b05",
+                  "caption":"lộ giới & ranh giới phường mới",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-b05",
+                     "imagePath":"assets/img/home/topSection@2x.png",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               },
+               {
+                  "title":"tìm kiếm theo thửa đất, toạ độ",
+                  "titleID":"b04",
+                  "caption":"",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-b03",
+                     "imagePath":"assets/img/home/topSection@2x.png",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               },
+               {
+                  "title":"nhiều lớp bản đồ",
+                  "titleID":"b01",
+                  "caption":"Thửa đất, Số nhà, Lộ giới, đường điện",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-b01",
+                     "imagePath":"assets/img/home/topSection@2x.png",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               },
+               {
+                  "title":"Hiển thị các tuyến Metro",
+                  "titleID":"b04",
+                  "caption":"",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-b04",
+                     "imagePath":"assets/img/home/topSection@2x.png",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               },
+               {
+                  "title":"nhiều công cụ đo đạc",
+                  "titleID":"b02",
+                  "caption":"",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-b02",
+                     "imagePath":"assets/img/home/topSection@2x.png",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               }
+            ]
+         },
+         {
+            "tabTitle":"tính năng bảo mật",
+            "tabID": "c0",
+            "activeTab":false,
+            "class":"textInactive",
+            "imagePath":"/assets/img/home/phanquyen.png",
+            "alt":"chi tiết, bất đất sản, thông tin, nhà đất",
+            "imageClass":"",
+            "subitem": [
+               {
+                  "title":"giới hạn truy cập theo IP",
+                  "titleID":"c01",
+                  "caption":"",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-c01",
+                     "imagePath":"",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               },
+               {
+                  "title":"thiết lập IP tĩnh",
+                  "titleID":"c02",
+                  "caption":"Tăng cường bảo mật truy cập",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-c02",
+                     "imagePath":"",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               },
+               {
+                  "title":"giới hạn truy cập theo toạ độ",
+                  "titleID":"c03",
+                  "caption":"theo toạ độ GPS của thiết bị",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-c03",
+                     "imagePath":"",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "climageClassass":""
+                  }
+               },
+               {
+                  "title":"giới hạn truy cập theo mã thiết bị",
+                  "titleID":"c04",
+                  "caption":"",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-c04",
+                     "imagePath":"",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               },
+               {
+                  "title":"phân quyền truy cập chuyên sâu",
+                  "titleID":"c05",
+                  "caption":"quản lý các tiêu chí truy cập theo tuỳ chỉnh của mỗi công ty ",
+                  "class":"",
+                  "images": {
+                     "imageID": "img-c05",
+                     "imagePath":"",
+                     "alt":"",
+                     "figcaption":"",
+                     "iconName":"",
+                     "imageClass":""
+                  }
+               }
+               
+            ],
+            "iconName":"Shield"
+         }
+      ],
+
+      "cta":""
+   },
+   "whynewchoose": {
+      "section_index":4,
+      "title":"vì sao khách hàng mới chọn TekaReal",
+      "prod_title":"",
+      "headline":"dễ dàng mở rộng năng suất & tiềm năng",
+      "caption":"",
+      "tags": "",
+      "imagePath":"/assets/img/home/whyChoose.png",
+      "content": [
+         {
+            "title":"quản lý tổng quan",
+            "subitem": [
+               "Quản Lý linh hoạt các Chi Nhánh & Đội nhóm",
+               "Quan sát Tổng quan tình hình Kinh doanh công ty",
+               "Giao diện và Tính năng mang lại hình ảnh chuyên nghiệp cho Cá nhân và Doanh nghiệp"
+            ],
+            "iconName":"Atom"
+         },
+         {
+            "title":"Giao diện trực quan & Bao quát",
+            "subitem": [
+               "Thông tin bất động sản được phân phối và sắp xếp hợp lý qua nhiều phiên bản chỉnh sửa",
+               "Nắm bắt thông tin bất động sản nhanh chóng",
+               "Đầy đủ các trường thông tin chi tiết cho mỗi sản phẩm"
+            ],
+            "iconName":"AppWindow"
+         },
+         {
+            "title":"quản lý tổng quan",
+            "subitem": [
+               "Thao tác nhập liệu thông tin bất động sản dễ dàng",
+               "Tối ưu thời gian làm quen phần mềm mới",
+               "Đáp ứng các yêu cầu phổ biến, từ căn bản đến nâng cao"
+            ],
+            "iconName":"MousePointerClick"
+         }
+      ],
+      "images": {
+         "01": {
+            "imagePath":"",
+            "alt":"",
+            "figcaption":""
+         }
+      },
+      "cta":""
+   },
+   "whycustomerchoose": {
+      "section_index":5,
+      "title":"vì sao các đối tác chọn TekaReal",
+      "prod_title":"",
+      "headline":"dịch vụ chăm sóc khách hàng",
+      "caption":"",
+      "tags": "",
+      "portion":{
+         "benefits": {
+            "title": "dịch vụ chăm sóc khách hàng",
+            "images": [
+               {  "title": "dễ dàng tiếp cận",
+                  "imagePath":"assets/img/one.jpg",
+                  "mobileSize":128,
+                  "desktopSize":128,
+                  "alt":"",
+                  "figcaption":"",
+                  "content":"",
+                  "iconName":"BookOpen",
+                  "iconSize":128,
+                  "order":1
+               },
+               {  "title": "tiếp nhận góp ý",
+                  "imagePath":"assets/img/one.jpg",
+                  "mobileSize":128,
+                  "desktopSize":128,
+                  "alt":"",
+                  "figcaption":"",
+                  "content":"",
+                  "iconName":"Heart",
+                  "iconSize":128,
+                  "order":1
+               },
+               {  "title": "có demo hướng dẫn",
+                  "imagePath":"assets/img/one.jpg",
+                  "mobileSize":128,
+                  "desktopSize":128,
+                  "alt":"",
+                  "figcaption":"",
+                  "content":"",
+                  "iconName":"MonitorPlay",
+                  "iconSize":128,
+                  "order":1
+               },
+               {  "title": "luôn cập nhật",
+                  "imagePath":"assets/img/one.jpg",
+                  "mobileSize":128,
+                  "desktopSize":128,
+                  "alt":"",
+                  "figcaption":"",
+                  "content":"",
+                  "iconName":"CloudCog",
+                  "iconSize":128,
+                  "order":1
+               },
+               {  "title": "hỗ trợ liên tục",
+                  "imagePath":"assets/img/one.jpg",
+                  "mobileSize":128,
+                  "desktopSize":128,
+                  "alt":"",
+                  "figcaption":"",
+                  "content":"",
+                  "iconName":"MessageSquare",
+                  "iconSize":128,
+                  "order":1
+               },
+               {  "title": "hoa hồng giới thiệu",
+                  "imagePath":"assets/img/one.jpg",
+                  "mobileSize":128,
+                  "desktopSize":128,
+                  "alt":"",
+                  "figcaption":"",
+                  "content":"",
+                  "iconName":"Flower2",
+                  "iconSize":128,
+                  "order":1
+               }
+            ]
+         },
+         "customers": {
+            "title": "Đối tác chiến lược",
+            "images": [
+               {
+                  "imagePath":"assets/img/branding/customers/htv.png",
+                  "alt":"",
+                  "figcaption":"",
+                  "size":128
+               },
+               {
+                  "imagePath":"assets/img/branding/customers/cdmg.png",
+                  "alt":"",
+                  "figcaption":"",
+                  "size":128
+               },
+               {
+                  "imagePath":"assets/img/branding/customers/cap.png",
+                  "alt":"",
+                  "figcaption":"",
+                  "size":128
+               },
+               {
+                  "imagePath":"assets/img/branding/customers/sgsala.png",
+                  "alt":"",
+                  "figcaption":"",
+                  "size":128
+               },
+               {
+                  "imagePath":"assets/img/branding/customers/phudien.png",
+                  "alt":"",
+                  "figcaption":"",
+                  "size":128
+               },
+               {
+                  "imagePath":"assets/img/branding/customers/sggl.png",
+                  "alt":"",
+                  "figcaption":"",
+                  "size":128
+               },
+               {
+                  "imagePath":"assets/img/branding/customers/vuongphat.jpg",
+                  "alt":"",
+                  "figcaption":"",
+                  "size":128
+               },
+               {
+                  "imagePath":"assets/img/branding/customers/beeleads.png",
+                  "alt":"",
+                  "figcaption":"",
+                  "size":128
+               },
+               {
+                  "imagePath":"assets/img/branding/customers/timnhapho.png",
+                  "alt":"",
+                  "figcaption":"",
+                  "size":128
+               }
+            ]
+         }
+      },
+      "cta":""
+   },
+
+   "pricing":{  
+      "section_index":6,
+      "title":"bảng giá phần mềm TekaReal",
+      "prod_title":"",
+      "headline":"",
+      "caption":"",
+      "tags": "",
+      "content": [
+         {
+            "title":"gói căn bản",
+            "price":"",
+            "caption":"Giá: Liên Hệ",
+            "subitem": [
+               "Quản lý thông tin BĐS",
+               "Import/Export",
+               "Khung giá thị trường",
+               "Quản lý giỏ hàng",
+               "Bản đồ quy hoạch",
+               "Khung giá đất",
+               "Quản lý nhân sự căn bản",
+               "Phân quyền chuyên sâu",
+               "Bảo mật IP, thiết bị định vị",
+               "Mini Apps",
+               "20GB dữ liệu lưu trữ"
+            ],
+            "cta":"liên hệ báo giá",
+            "phone":"",
+            "content": "0389683939",
+            "protocol": "tel",
+            "iconName":"Copy"
+         },
+         {
+            "title":"gói nâng cao",
+            "price":"",
+            "caption":"Giá: Liên Hệ",
+            "subitem": [
+               "Các tính năng gói căn bản",
+               "Góc xin hàng",
+               "Tin thị trường",
+               "Hoạt động & Thống kê",
+               "Báo cáo doanh số",
+               "Báo cáo dẫn khách, tin đăng",
+               "Vinh danh Top Sale",
+               "Tính hoa hồng",
+               "Quản lý nhân sự nâng cao",
+               "Có thể đặt server riêng",
+               "50GB dữ liệu lưu trữ"
+            ],
+            "cta":"liên hệ báo giá",
+            "phone":"",
+            "content": "0389683939",
+            "protocol": "tel",
+            "iconName":"Copy"
+         },
+         {
+            "title":"gói cao cấp",
+            "price":"",
+            "caption":"Giá: Liên Hệ",
+            "subitem": [
+               "Gồm tất cả tính năng",
+               "Định danh khách hàng",
+               "Định danh môi giới",
+               "Hoạt động & Thống kê",
+               "Báo cáo doanh số",
+               "Báo cáo dẫn khách, tin đăng",
+               "Vinh danh Top Sale",
+               "Tính hoa hồng",
+               "Quản lý nhân sự nâng cao",
+               "Có thể đặt server riêng",
+               "100GB dữ liệu lưu trữ"
+            ],
+            "cta":"liên hệ báo giá",
+            "phone":"",
+            "content": "0389683939",
+            "protocol": "tel",
+            "iconName":"Copy"
+         }
+      
+      ],
+      "images": {
+         "01": {
+            "imagePath":"",
+            "alt":"",
+            "figcaption":""
+         }
+      },
+      "cta":[
+         
+      ],
+      "contact":{
+         "title": "phone",
+         "content":"0389683939",
+         "protocol": "",
+         "iconName":"Copy"
+      }
+   }
+}

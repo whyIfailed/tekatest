@@ -1,0 +1,217 @@
+{
+   "quanly": [
+      {
+         "title": "Bộ lọc đa năng", 
+         "caption": "test_caption 01"
+      },
+      {
+         "title": "Nhiều trường nhập thông tin", 
+         "caption": "Đặc điểm, ưu điểm, kết cấu, ghi chú..."
+      }
+   ],
+   "bando": [
+      {
+         "title": "Bộ lọc đa năng", 
+         "caption": "test_caption 01"
+      },   
+      {
+         "title": "Cập nhật nhiều tỉnh thành", 
+         "caption": "Tp. Hồ Chí Minh, Vũng Tàu, Bình Dương"
+      },
+      {
+         "title": "Nhiều lớp bản đồ",
+         "caption": "test_caption 02"
+      },
+      {
+         "title": "Các công cụ đo đạc kỹ thuật", 
+         "caption": "test_caption 02"
+      },
+      {
+         "title": "Tìm theo thửa đất, toạ độ", 
+         "caption": "test_caption 02"
+      },
+      {
+         "title": "Bản vẽ kỹ thuật từng thửa đất", 
+         "caption": "test_caption 02"
+      },
+      {
+         "title": "Lưu lịch sử tìm kiếm",
+         "caption": "test_caption 02"
+      }
+   ],
+   "baomat": [
+      {
+         "title": "Bảo mật đa tầng", 
+         "caption": "test_caption 01"
+      },
+      {
+         "title": "Quyền truy cập IP", 
+         "caption": "test_caption 01"
+      },
+      {
+         "title": "Quyền truy cập mã thiết bị", 
+         "caption": "test_caption 01"
+      },
+      {
+         "title": "Quyền truy cập định vị", 
+         "caption": "test_caption 01"
+      },
+      {
+         "title": "Phân quyền chuyên sâu", 
+         "caption": "test_caption 01"
+      }
+   ],
+   "whychoose" : [
+      {
+         "title": "Quản lý tổng quan",
+         "caption": [
+            "Quản Lý linh hoạt các Chi Nhánh & Đội nhóm", 
+            "Quan sát Tổng quan tình hình Kinh doanh công ty", 
+            "Giao diện và Tính năng mang lại hình ảnh chuyên nghiệp cho Cá nhân và Doanh nghiệp"
+         ]
+      },
+      {
+         "title": "Giao diện trực quan & Bao quát",
+         "caption": [
+            "Thông tin bất động sản được phân phối và sắp xếp hợp lý qua nhiều phiên bản chỉnh sửa", 
+            "Nắm bắt thông tin bất động sản nhanh chóng", 
+            "Đầy đủ các trường thông tin chi tiết cho mỗi sản phẩm"
+         ]
+      },
+
+      {
+         "title": "Thao tác nhanh chóng",
+         "caption": [
+            "Thao tác nhập liệu thông tin bất động sản dễ dàng",
+            "Tối ưu thời gian làm quen phần mềm mới",
+            "Đáp ứng các yêu cầu phổ biến, từ căn bản đến nâng cao"
+         ]
+      }
+   ],
+   "services": [
+      {
+         "title": "dễ dàng tiếp cận",
+         "caption": "",
+         "iconName": "BookOpen"
+      },
+      {
+         "title": "hỗ trợ & tiếp nhận góp ý",
+         "caption": "",
+         "iconName": "MessageSquare"
+      },
+      {
+         "title": "có Demo hướng dẫn",
+         "caption": "",
+         "iconName": "MonitorPlay"
+      },
+      {
+         "title": "cập nhật liên tục",
+         "caption": "",
+         "iconName": "MonitorPlay"
+      },
+      {
+         "title": "hoa hồng giới thiệu",
+         "caption": "",
+         "iconName": "Banknote"
+      }
+
+   ],
+   "customers" : [
+      {
+         "title": "1",
+         "alt": "test image",
+         "size": "128",
+         "imagePath": "assets/img/one.jpg"
+      },
+      {
+         "title": "2",
+         "alt": "test image",
+         "size": "128",
+         "imagePath": "assets/img/two.png"
+      },
+      {
+         "title": "3",
+         "alt": "test image",
+         "size": "128",
+         "imagePath": "assets/img/three.png"
+      },
+      {
+         "title": "4",
+         "alt": "test image",
+         "size": "128",
+         "imagePath": "assets/img/four.png"
+      },
+      {
+         "title": "5",
+         "alt": "test image",
+         "size": "128",
+         "imagePath": "assets/img/five.png"
+      },
+      {
+         "title": "6",
+         "alt": "test image",
+         "size": "128",
+         "imagePath": "assets/img/six.png"
+      }
+   ],
+
+   "pricing" : [
+      {
+         "title":"can ban",
+         "price" : "",
+         "caption" : "",
+         "list" : [
+            "Quản lý thông tin BĐS",
+            "Import/Export",
+            "Khung giá thị trường",
+            "Quản lý giỏ hàng",
+            "Bản đồ quy hoạch",
+            "Khung giá đất",
+            "Quản lý nhân sự",
+            "Phân quyền chuyên sâu",
+            "Bảo mật IP, thiết bị định vị",
+            "Mini Apps",
+            "20GB dữ liệu lưu trữ"
+         ],
+         "iconName" : "Phone"
+      },
+      {
+         "title":"nang cao",
+         "price" : "",
+         "caption" : "",
+         "list" : [
+            "Các tính năng gói căn bản",
+            "Góc xin hàng",
+            "Tin thị trường",
+            "Hoạt động & Thống kê",
+            "Báo cáo doanh số",
+            "Báo cáo dẫn khách, tin đăng",
+            "Vinh danh Top Sale",
+            "Tính hoa hồng",
+            "Quản lý nhân sự nâng cao",
+            "Đặt server riêng",
+            "50GB dữ liệu lưu trữ"
+         ],
+         "iconName" : "Phone"
+      },
+      {
+         "title":"cao cap",
+         "price" : "",
+         "caption" : "",
+         "list" : [
+            "Gồm tất cả tính năng",
+            "Định danh khách hàng",
+            "Định danh môi giới",
+            "Hoạt động & Thống kê",
+            "Báo cáo doanh số",
+            "Báo cáo dẫn khách, tin đăng",
+            "Vinh danh Top Sale",
+            "Tính hoa hồng",
+            "Quản lý nhân sự nâng cao",
+            "Đặt server riêng",
+            "100GB dữ liệu lưu trữ"
+         ],
+         "iconName" : "Phone"
+      }
+   ]
+}

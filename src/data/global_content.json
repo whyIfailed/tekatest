@@ -1,0 +1,136 @@
+{
+   "contact" : [
+      {
+         "title": "Phone",
+         "content": "0389683939",
+         "href": "tel"
+      },
+      {
+         "title": "Email",
+         "content": "lienhe@tekadev.com",
+         "href" : "mailto"
+      }
+   ],
+   "sitemap" : [
+      {
+         "title":"Dùng thử Bản đồ quy hoạch",
+         "href":"https://map.tekadev.vn",
+         "alt":"111",
+         "content":"Bản đồ quy hoạch TekaMap",
+         "target":"_blank",
+         "topNav": "yes",
+         "topNavOrder":2,
+         "footerNav": "yes",
+         "footerNavOrder":1
+      },
+      {
+         "title":"Quy trình hợp đồng",
+         "href":"/quy-trinh-hop-dong",
+         "alt":"111",
+         "content":"Quy trình hợp đồng",
+         "target":"",
+         "topNav": "no",
+         "topNavOrder":1,
+         "footerNav": "yes",
+         "footerNavOrder":1
+      },
+      {
+         "title":"Chính sách sử dùng",
+         "href":"/chinh-sach-su-dung",
+         "alt":"111",
+         "content":"Chính sách sử dùng",
+         "target":"",
+         "topNav": "no",
+         "topNavOrder":0,
+         "footerNav": "yes",
+         "footerNavOrder":2
+      },
+      {
+         "title":"Chính sách bảo mật",
+         "href":"/chinh-sach-bao-mat",
+         "alt":"111",
+         "content":"Chính sách bảo mật",
+         "target":"",
+         "topNav": "no",
+         "topNavOrder":1,
+         "footerNav": "yes",
+         "footerNavOrder":3
+      },
+      {
+         "title":"Hướng dẫn TekaReal",
+         "href":"/huong-dan-tekareal",
+         "alt":"111",
+         "content":"Hướng dẫn TekaReal",
+         "target":"",
+         "topNav": "no",
+         "topNavOrder":0,
+         "footerNav": "yes",
+         "footerNavOrder":4
+      },
+      {
+         "title":"Tính năng",
+         "href":"tinh-nang",
+         "alt":"111",
+         "content":"Tính năng",
+         "target":"",
+         "topNav": "yes",
+         "topNavOrder":1,
+         "footerNav": "no",
+         "footerNavOrder":5
+      },
+      {
+         "title":"Bảng giá",
+         "href":"tinh-nang",
+         "alt":"111",
+         "content":"Bảng giá",
+         "target":"",
+         "topNav": "yes",
+         "topNavOrder":2,
+         "footerNav": "no",
+         "footerNavOrder":1
+      },
+      {
+         "title":"Tải bảng giá",
+         "href":"/tai-bang-gia",
+         "alt":"111",
+         "content":"tải bảng giá",
+         "target":"",
+         "topNav": "no",
+         "topNavOrder":0,
+         "footerNav": "no",
+         "footerNavOrder":6
+      }
+   ],
+   "branding": [
+      {
+         "title":"tekareal",
+         "imagePath":"/assets/img/branding/teka_real.svg",
+         "alt":"",
+         "content_1":"Phần Mềm Quản Lý  Bất Động Sản",
+         "content_2":"",
+         "href": "",
+         "topSize":164,
+         "footerSize": 200
+      },
+      {
+         "title":"tekadev",
+         "imagePath":"/assets/img/branding/logo.svg",
+         "alt":"",
+         "content_1":"Một sản phẩm thuộc",
+         "content_2":"Thành viên của TekaGroup ® 2025",
+         "topSize":128,
+         "footerSize": 200
+      }
+      
+   ],
+   "menu" : {
+      "iconName":"Menu",
+      "iconClass":"",
+      "iconSize":16,
+      "content":"Menu"
+   },
+   "footer" : {
+      "title":"Thông tin liên hệ"
+   }
+  
+}
