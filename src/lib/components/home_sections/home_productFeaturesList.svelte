@@ -25,13 +25,13 @@
    }
 </script>
 
-<div id="ban-do-quy-hoach" class="section-title-wrapper">
+<div id="ban-do-quy-hoach" class="section-title-wrapper col-span-4 lg:col-span-12">
    <div class="eyebrown-title">
       <h4>{items.title}</h4>
    </div>
 </div>
 
-<div class="section-main">
+<div class="section-main col-span-4 lg:col-span-12">
    <div class="main-wrapper">
       <!-- tabs containers -->
       <div class="xs-row-top xl-col-left">

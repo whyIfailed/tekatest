@@ -12,13 +12,13 @@
 
    }
    @include respond-to(lg) {
-      &:before {
-         content: "";
-         @include vertical-line-gradient;
-         position: absolute;
-         top: 0;
-         left: 64px;
-      }
+      // &:before {
+      //    content: "";
+      //    @include vertical-line-gradient;
+      //    position: absolute;
+      //    top: 0;
+      //    left: 64px;
+      // }
    }
    @include respond-to(xl) {
 
@@ -33,7 +33,7 @@
       @include respond-to(xs) {
          position: relative;
          padding-top: 12px;
-         padding-left: 16px;
+         // padding-left: 16px;
          width: 100%;
       }
       @include respond-to(sm) {
@@ -42,15 +42,15 @@
          
       }
       @include respond-to(lg) {
-         padding-top: 32px;
-         padding-left: 64px;
+         // padding-top: 32px;
+         // padding-left: 64px;
          &:before {
             left: 32px;
          }
       }
       @include respond-to(xl) {
-         padding-top: 32px;
-         padding-left: 104px;
+         // padding-top: 32px;
+         // padding-left: 84px;
       }
 
       .tagline {
@@ -99,6 +99,7 @@
                
             }
             @include respond-to(lg) {
+               // display: block;
                font-size: 38px;
                position: absolute;
                top: 0;
@@ -146,7 +147,7 @@
             padding: 24px;
             padding-left: 32px;
             padding-top: 32px;
-            background-color: rgba($color: #04172F, $alpha: 0.7);
+            background-color: rgba($color: #04172F, $alpha: 0.96);
             border-radius: 0 0 0 20px;
             z-index: 2;
          }
@@ -262,6 +263,7 @@
                border-radius: 0 24px 24px 24px;
                transition: all 100ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
                border: 1px solid rgba($color: #65A2F2, $alpha: .5);
+               display: none;
             }
             @include respond-to(sm) {
 

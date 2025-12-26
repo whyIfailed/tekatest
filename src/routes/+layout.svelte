@@ -5,8 +5,7 @@
 	import Footer from '$lib/components/footer.svelte';
 	import SvelteSeo from 'svelte-seo';
 	import globalContent from '../../src/data/global_content.json';
-	import MouseCursor from '$lib/components/ultilities/mouseCursor.svelte';
-	import gsap from 'gsap'; 
+	// import MouseCursor from '$lib/components/ultilities/mouseCursor.svelte';
 	import { onMount, onDestroy } from 'svelte'; 
 	import { browser } from '$app/environment'; 
 	import { initAnimations,cleanupAnimations } from '$lib/components/home_sections/home_animations'; 
@@ -74,11 +73,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script src="js/additions.js"></script>
 </svelte:head>
-
-{#if isDesktop}
-	<MouseCursor />
-{/if}
 
 <Navbar items={ topLinks } />
 <div class="main">

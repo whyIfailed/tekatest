@@ -33,7 +33,7 @@
       }
       @include respond-to(lg) {
          position: relative;
-         width: 90%;
+         // width: 90%;
          margin: 0 auto;
          display: flex;
          flex-direction: row;
@@ -44,11 +44,11 @@
       }
       @include respond-to(xl) {
       }
-      &:before {
-         content: "";
-         @include vertical-line-gradient;
-         position: absolute;
-      }
+      // &:before {
+      //    content: "";
+      //    @include vertical-line-gradient;
+      //    position: absolute;
+      // }
       .main-wrapper{
          @include respond-to(xs) { 
             position: relative;
@@ -69,8 +69,8 @@
          @include respond-to(lg) {
             padding: 24px;
             position: relative;
-            top: 32px;
-            left: 48px;
+            // top: 32px;
+            // left: 48px;
             width: 150vw;
             height: auto;
             padding: 24px 32px;
@@ -151,6 +151,7 @@
                   @include respond-to(md) {
                      order: 1;
                      font-size: 16px;
+                     padding: 10px 12px 10px 12px;
                   }
                   @include respond-to(lg) {
                      order: 1;

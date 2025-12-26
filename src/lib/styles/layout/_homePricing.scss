@@ -13,8 +13,8 @@
    @include respond-to(md) {}
    @include respond-to(lg) {
       padding-top: 16px;
-      margin-left: 8px;
-      padding-left: 40px;
+      // margin-left: 8px;
+      // padding-left: 40px;
       @include flex-row-between;
       &:before{
          left: 32px;
@@ -137,22 +137,25 @@
             width: 100%;
             position: relative;
             @include flex-column-base;
-            gap: 32px;
+            gap: 48px;
             align-items: flex-start;
          }
          @include respond-to(sm) {}
          @include respond-to(md) {
             gap:16px;
+            
          }
          @include respond-to(lg) {
-            left: 32px;;
+            // left: 32px;
+            gap: 48px;
+            // display: grid;
             @include flex-row-base;
          }
          @include respond-to(xl) {
             left: 0;
-            padding-left: 64px;
-            padding-right: 64px;
-            justify-content: space-between;
+            // padding-left: 64px;
+            // padding-right: 64px;
+            // justify-content: space-between;
          }
 
          .pricing-col {
@@ -167,9 +170,11 @@
             @include respond-to(md) {}
             @include respond-to(lg) {
                position: relative;
-               min-width: 200px;
-               max-width: 360px;
-               width: 28vw;
+               // min-width: 200px;
+               // max-width: 360px;
+               // opacity: 0;
+               // top: 30px;
+               width: 24vw;
                padding: 24px;
                border: 1px solid var(--color-primary-sixty);
                border-radius: 0 24px 24px 24px;
@@ -179,12 +184,28 @@
                font-family: 'Saira';
                font-style: normal;
                line-height: 120%;
+               font-weight: 700;
                text-transform: uppercase;
                color: #082E5E;
             }
             h3 {
-               font-weight: 600;
-               font-size: 24px;
+               @include respond-to(sm){
+                  
+                  // font-size: 32px;
+               }
+               @include respond-to(sm){
+                  
+               }
+               @include respond-to(sm){
+                  
+               }
+               @include respond-to(sm){
+                  
+               }
+               @include respond-to(sm){
+                  
+               }
+
             }
             h2 {
                font-weight: 800;
@@ -232,7 +253,6 @@
                   }
                }
             }
-            &:first-child{}
             &:nth-child(2){
                .pricing-subitem {
                   @for $i from 2 through 12 {

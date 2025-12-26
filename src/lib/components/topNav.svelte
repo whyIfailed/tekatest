@@ -8,11 +8,11 @@
    export let items;
 </script>
 
-<div class="top-nav-container">
+<div id="topNav" class="top-nav top-nav-normal">
    <a href="/" class="text-center logo">
       <img src={tekadev_logo_path} alt="" width={tekadev_item?.topSize} height="auto">
    </a>
-   <nav class="top-nav-links">
+   <!-- <nav class="top-nav-links">
       <ul>
          {#each items as link (link.href)}
             <li>
@@ -20,8 +20,9 @@
             </li>
          {/each}
       </ul>
-   </nav>
+   </nav> -->
    <button role="menu"> {iconContent.content}
       <Icon name={iconContent.iconName} />
    </button>
+   
 </div>

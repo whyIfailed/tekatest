@@ -7,20 +7,20 @@
       "section_index":1,
       "title":"",
       "prod_title":"phần mềm quản lý bất động sản",
-      "headline":"tự tin chốt deal",
-      "caption":"Quản lý từng chi tiết dữ liệu bất động sản sẽ mang đến sự tiện lợi và tự tin khi tư vấn cho khách hàng",
+      "headline":"Hệ Sinh Thái Bất Động Sản: Chủ Đầu Tư – Sàn Giao Dịch – Môi Giới",
+      "caption":"Quản trị dữ liệu chi tiết, tư vấn tự tin, chốt deal thần tốc.",
 
       "tags": [
          {
-            "title":"thông tin",
+            "title":"tra cứu thông minh",
             "href":"#thong-tin"
          },
          {
-            "title":"tìm kiếm",
+            "title":"khung giá thị trường",
             "href":"#tim-kiem"
          },
          {
-            "title":"bộ lọc",
+            "title":"số hoá doanh nghiệp",
             "href":"bo-loc"
          },
          {
@@ -28,28 +28,12 @@
             "href":"#ban-do-quy-hoach"
          },
          {
-            "title":"tiềm năng",
+            "title":"trợ lý môi giới",
             "href":"#tien-nang"
          },
          {
-            "title":"đối tác",
+            "title":"tư vấn giải pháp",
             "href":"#doi-tac"
-         },
-         {
-            "title":"công ty",
-            "href":"#cong-ty"
-         },
-         {
-            "title":"cá nhân",
-            "href":"#ca-nhan"
-         },
-         {
-            "title":"bảng giá",
-            "href":"#bang-gia"
-         },
-         {
-            "title":"liên hệ",
-            "href":"#lien-he"
          }
       ],
       "imagePath":"assets/img/home/topSection@2x.png",
@@ -57,7 +41,7 @@
       "figcaption":"",
       
       "cta":{
-         "title":"khám phá",
+         "title":"Bắt đầu ngay",
          "href":"#gioi-thieu-tinh-nang",
          "target":""
       },
@@ -67,11 +51,12 @@
        }
        
    },
+
    "introSection": {
       "section_index":2,
-      "title":"giới thiệu tính năng",
+      "title":"giới thiệu tổng quan",
       "prod_title":"",
-      "headline":"công cụ hỗ trợ dành cho môi giới chuyên nghiệp",
+      "headline":"công cụ hỗ trợ dành cho môi giới bất động sản chuyên nghiệp",
       "caption":"",
       "content":[
          "Thao tác nhập thông tin và quản lý kho dữ liệu thông tin bất động sản nhanh chóng.",
@@ -82,35 +67,103 @@
       "tags": "",
       "images": [
          {
-            "title":"tính năng quản lý",
+            "title":"giải pháp cho chủ đầu tư",
             "imagePath":"/assets/img/home/manage.png",
             "alt":"",
             "figcaption":"",
-            "iconName":"Table",
+            "iconName":"Activity",
             "iconButton":"ChevronDown",
             "iconClass":"xx"
          },
          {
-            "title":"bản đồ quy hoạch",
+            "title":"giải pháp cho sàn bất động sản",
             "imagePath":"/assets/img/home/map.png",
             "alt":"",
             "figcaption":"",
-            "iconName":"Map",
+            "iconName":"Building",
             "iconButton":"ChevronDown",
             "iconClass":"xx"
          },
          {
-            "title":"tính năng bảo mật",
+            "title":"giải pháp cho môi giới cá nhân",
             "imagePath":"/assets/img/home/secure.png",
             "alt":"",
             "figcaption":"",
-            "iconName":"Shield",
+            "iconName":"User",
             "iconButton":"ChevronDown",
             "iconClass":"xx"
          }
       ],
       "cta":""
    },
+
+   "projectDevSection": {
+      "section_index":2,
+      "title":"Giải pháp cho Chủ đầu tư",
+      "prod_title":"",
+      "headline":"Quản trị dự án & Kiểm soát dòng tiền tập trung.",
+      "caption":"",
+      "content":[
+         "Số hóa toàn bộ danh mục sản phẩm từ căn hộ, đất nền đến shophouse trên một nền tảng duy nhất.",
+         "Hệ thống tự động đồng bộ trạng thái \"Trống/Giữ chỗ/Đã bán\" theo mili giây, loại bỏ hoàn toàn rủi ro bán chồng hoặc sai lệch dữ liệu giữa các phòng ban"
+      ],
+      "tags": "",
+      "images": {
+         "title":"Giải pháp cho Chủ đầu tư",
+         "imagePath":"static/assets/img/home/home_targets/target_1.jpg",
+         "alt":"Giải pháp cho Chủ đầu tư",
+         "figcaption":"",
+         "iconName":"Table",
+         "iconButton":"ChevronDown",
+         "iconClass":"xx"
+      },
+      "cta":""
+   },
+   "agencySection": {
+      "section_index":2,
+      "title":"Giải pháp cho Công ty & Sàn BĐS",
+      "prod_title":"",
+      "headline":"Số hóa quy trình bán hàng & Quản trị đội ngũ sàn",
+      "caption":"",
+      "content":[
+         "Theo dõi chi tiết hành trình khách hàng từ khi còn là dữ liệu thô (Leads) đến khi phát sinh Booking." ,
+         "Hệ thống giúp nhà quản lý sàn nhận diện được các \"điểm nghẽn\" trong quy trình bán hàng để kịp thời hỗ trợ đội ngũ sale."
+      ],
+      "tags": "",
+       "images": {
+         "title":"Giải pháp cho Chủ đầu tư",
+         "imagePath":"static/assets/img/home/home_targets/target_2.jpg",
+         "alt":"Giải pháp cho Chủ đầu tư",
+         "figcaption":"",
+         "iconName":"Table",
+         "iconButton":"ChevronDown",
+         "iconClass":"xx"
+      },
+      "cta":""
+   },
+   "brokerSection": {
+      "section_index":2,
+      "title":"Giải pháp cho Môi giới cá nhân",
+      "prod_title":"",
+      "headline":"Chốt deal mọi lúc mọi nơi.",
+      "caption":"",
+      "content":[
+         "Đồng bộ hóa toàn bộ pháp lý, mặt bằng, chính sách bán hàng và bảng giá mới nhất lên hệ thống đám mây.", 
+         "Đảm bảo mọi nhân viên và đại lý liên kết luôn tư vấn thông tin chính xác nhất, chuyên nghiệp nhất tới khách hàng."
+      ],
+      "tags": "",
+      "images": {
+         "title":"Giải pháp cho Chủ đầu tư",
+         "imagePath":"static/assets/img/home/home_targets/target_3.jpg",
+         "alt":"Giải pháp cho Chủ đầu tư",
+         "figcaption":"",
+         "iconName":"Table",
+         "iconButton":"ChevronDown",
+         "iconClass":"xx"
+      },
+      "cta":""
+   },
+
    "introEachFeatures": {
       "section_index":3,
       "title":"chi tiết tính năng",
@@ -317,94 +370,107 @@
                   }
                }
             ]
-         },
-         {
-            "tabTitle":"tính năng bảo mật",
-            "tabID": "c0",
-            "activeTab":false,
-            "class":"textInactive",
-            "imagePath":"/assets/img/home/phanquyen.png",
-            "alt":"chi tiết, bất đất sản, thông tin, nhà đất",
-            "imageClass":"",
-            "subitem": [
-               {
-                  "title":"giới hạn truy cập theo IP",
-                  "titleID":"c01",
-                  "caption":"",
-                  "class":"",
-                  "images": {
-                     "imageID": "img-c01",
-                     "imagePath":"",
-                     "alt":"",
-                     "figcaption":"",
-                     "iconName":"",
-                     "imageClass":""
-                  }
-               },
-               {
-                  "title":"thiết lập IP tĩnh",
-                  "titleID":"c02",
-                  "caption":"Tăng cường bảo mật truy cập",
-                  "class":"",
-                  "images": {
-                     "imageID": "img-c02",
-                     "imagePath":"",
-                     "alt":"",
-                     "figcaption":"",
-                     "iconName":"",
-                     "imageClass":""
-                  }
-               },
-               {
-                  "title":"giới hạn truy cập theo toạ độ",
-                  "titleID":"c03",
-                  "caption":"theo toạ độ GPS của thiết bị",
-                  "class":"",
-                  "images": {
-                     "imageID": "img-c03",
-                     "imagePath":"",
-                     "alt":"",
-                     "figcaption":"",
-                     "iconName":"",
-                     "climageClassass":""
-                  }
-               },
-               {
-                  "title":"giới hạn truy cập theo mã thiết bị",
-                  "titleID":"c04",
-                  "caption":"",
-                  "class":"",
-                  "images": {
-                     "imageID": "img-c04",
-                     "imagePath":"",
-                     "alt":"",
-                     "figcaption":"",
-                     "iconName":"",
-                     "imageClass":""
-                  }
-               },
-               {
-                  "title":"phân quyền truy cập chuyên sâu",
-                  "titleID":"c05",
-                  "caption":"quản lý các tiêu chí truy cập theo tuỳ chỉnh của mỗi công ty ",
-                  "class":"",
-                  "images": {
-                     "imageID": "img-c05",
-                     "imagePath":"",
-                     "alt":"",
-                     "figcaption":"",
-                     "iconName":"",
-                     "imageClass":""
-                  }
-               }
-               
-            ],
-            "iconName":"Shield"
          }
       ],
 
       "cta":""
    },
+
+   "comparePainGain": {
+      "section_index":4,
+      "title":"Rào Cản và Giải Pháp",
+      "prod_title":"",
+      "headline":"Những rào cản chúng tôi tháo gỡ cho bạn",
+      "caption":"Thay thế sự rời rạc bằng tính kết nối, thay thế cảm tính bằng những con số. Hệ thống giúp bạn giải phóng nguồn lực khỏi các tác vụ lặp lại để tập trung vào mục tiêu cao nhất: Chốt deal và tối ưu lợi nhuận.",
+      "tags": "",
+      "imagePath":"",
+      "content": [
+         {
+            "main" : {
+               "iconName":"X",
+               "title":"Bài toán \"Bán chồng\" và Sai lệch giỏ hàng",
+               "caption": "Dữ liệu giỏ hàng bị phân tán qua hàng chục nhóm Zalo và file Excel",
+               "caption_2": "Môi giới tư vấn căn đã bán, khách hàng mất niềm tin khi đặt cọc không thành công, chủ đầu tư mất uy tín vì quản lý chồng chéo."
+            },
+            "sub": {
+               "iconName":"Atom",
+               "title":"Cơ chế khóa căn theo mili giây",
+               "caption": "Khi một môi giới nhấn \"Giữ chỗ\", căn hộ đó sẽ lập tức chuyển sang trạng thái \"Đang giao dịch\" trên toàn hệ thống.",
+               "caption_2": "Đồng bộ hóa dữ liệu đa nền tảng (Real-time Synchronization) giúp 100% nhân sự tiếp cận một nguồn dữ liệu duy nhất, chính xác tuyệt đối tại mọi thời điểm."
+            },
+            
+            "images" : {
+               "imagePath": "static/assets/img/home/home_problems/home_problem_1.png",
+               "alt": ""
+            }
+         },
+         {
+            "main" : {
+               "iconName":"X",
+               "title":"Rò rỉ dữ liệu và Thất thoát khách hàng",
+               "caption": "Thông tin khách hàng tiềm năng (Leads) nằm rải rác trong sổ tay hoặc điện thoại cá nhân của môi giới.",
+               "caption_2": "Khi nhân sự nghỉ việc, toàn bộ dữ liệu khách hàng bị mang đi. Doanh nghiệp không có lịch sử chăm sóc để tối ưu tỷ lệ chốt deal."
+            },
+            "sub": {
+               "iconName":"Atom",
+               "title": "Hệ thống CRM bảo mật đa tầng",
+               "caption": "Dữ liệu khách hàng được lưu trữ tập trung và mã hóa.",
+               "caption_2": "Sử dụng chiến lược Phân quyền truy cập (RBAC). Cấp quản lý nắm tổng thể, nhân viên chỉ thấy dữ liệu họ được giao. Mọi hành xuất/nhập dữ liệu đều được ghi lại (Log) để kiểm soát 100% tài sản số của doanh nghiệp."
+            },
+            "images" : {
+               "imagePath": "static/assets/img/home/home_problems/home_problem_2.jpg",
+               "alt": ""
+            }
+         },
+         {
+            "main" : {
+               "iconName":"X",
+               "title":"Quy trình thủ công gây đình trệ giao dịch",
+               "caption": "Mọi thủ tục từ kiểm tra pháp lý.xác nhận cọc đến in phiếu thu đều làm thủ công hoặc chờ phê duyệt qua nhiều cấp.",
+               "caption_2": "Tốc độ giao dịch chậm làm nguội đi sự hứng thú của người mua. Đội ngũ Admin/Kế toán quá tải trong những ngày mở bán cao điểm."
+            },
+            "sub": {
+               "iconName":"Atom",
+               "title": "Số hóa quy trình phê duyệt (Workflow Automation)",
+               "caption": "Tự động hóa từ khâu check căn, tạo phiếu đặt cọc đến gửi thông báo thanh toán.",
+               "caption_2": "Thiết lập Luồng công việc tự động (Automated Workflow). Khi có giao dịch phát sinh, hệ thống tự động đẩy thông báo đến các bộ phận liên quan (Kế toán, Pháp lý, Thủ kho) để xử lý song song, rút ngắn 80% thời gian chờ đợi."
+            },
+            "images" : {
+               "imagePath": "static/assets/img/home/home_problems/home_problem_3.jpg",
+               "alt": ""
+            }
+         },
+         {
+            "main" : {
+               "iconName":"X",
+               "title":"Mất phương hướng trong quyết định đầu tư & Marketing",
+               "caption": "Chủ đầu tư và sàn không biết chính xác bảng hàng đang \"tắc\" ở đâu, kênh marketing nào đang mang lại khách hàng thật.",
+               "caption_2": "Đổ tiền vào marketing sai chỗ, ra chính sách bán hàng không phù hợp với nhu cầu thực tế của thị trường."
+            },
+            "sub": {
+               "iconName":"Atom",
+               "title": "Hệ thống báo cáo thông minh (Business Intelligence):",
+               "caption": "Tổng hợp dữ liệu thực tế từ thị trường thành biểu đồ trực quan.",
+               "caption_2": "Chiến lược Phân tích dữ liệu thời gian thực (Real-time Analytics). Hệ thống tự động phân loại nguồn khách, đo lường tốc độ hấp thụ theo từng loại căn, diện tích... giúp lãnh đạo đưa ra quyết định dựa trên con số thay vì cảm tính."
+            },
+            
+            "images" : {
+               "imagePath": "static/assets/img/home/home_problems/home_problem_4.jpg",
+               "alt": ""
+            }
+         }
+         
+      ],
+      "images": {
+         "01": {
+            "imagePath":"",
+            "alt":"",
+            "figcaption":""
+         }
+      },
+      "cta":""
+   },
+
    "whynewchoose": {
       "section_index":4,
       "title":"vì sao khách hàng mới chọn TekaReal",
@@ -451,6 +517,7 @@
       },
       "cta":""
    },
+
    "whycustomerchoose": {
       "section_index":5,
       "title":"vì sao các đối tác chọn TekaReal",
@@ -484,7 +551,7 @@
                   "iconSize":128,
                   "order":1
                },
-               {  "title": "có demo hướng dẫn",
+               {  "title": "demo hướng dẫn",
                   "imagePath":"assets/img/one.jpg",
                   "mobileSize":128,
                   "desktopSize":128,
@@ -583,6 +650,12 @@
                },
                {
                   "imagePath":"assets/img/branding/customers/timnhapho.png",
+                  "alt":"",
+                  "figcaption":"",
+                  "size":128
+               },
+               {
+                  "imagePath":"assets/img/branding/customers/sgbason.png",
                   "alt":"",
                   "figcaption":"",
                   "size":128

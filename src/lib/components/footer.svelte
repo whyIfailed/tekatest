@@ -9,7 +9,7 @@
 
 </script>
 
-<footer id="lien-he" class="seventh-section footer flex flex-col justify-between"> 
+<footer id="lien-he" class="seventh-section footer flex flex-col md:flex-row justify-start md:justify-start lg:flex-row p-4 lg:p-8"> 
    <div class="contact-wrapper xl-col-left">
       {#each items.contact as item }
          <div class="contact-item">

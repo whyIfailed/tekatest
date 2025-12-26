@@ -25,13 +25,13 @@
 
 </script>
 
-<div id="bang-gia" class="section-title-wrapper">
+<div id="bang-gia" class="section-title-wrapper col-span-4 md:col-span-8 lg:col-span-12 grid grid-cols-4 md:grid-cols-8 lg:grid-cols-10">
    <div class="eyebrown-title">
       <h3>{items.title}</h3>
    </div>
    <div class="sidebar xl-col-right">
       {#each items.cta as cta}
-         <span class="btn-secondary">
+         <span class="btn-secondary col-span-3">
             <a href="tekadev.com">{cta}</a>
          </span>   
       {/each}
@@ -51,11 +51,11 @@
    </div>
 </div>
 
-<div class="section-main">
-   <div class="xl-col-left details">
+<div class="section-main col-span-4 md:col-span-8 lg:col-span-12 grid grid-cols-12 md:grid-cols-8 lg:grid-cols-12" >
+   <div class="xl-col-left details flex col-span-4 md:col-span-8 lg:col-span-12 gap-4">
       {#each items.content as pack }
-         <div class="pricing-col">
-            <h3>{pack.title}</h3>
+         <div class="pricing-col flex-1">
+            <h3 class="text-4xl">{pack.title}</h3>
             <h2>{pack.price}</h2>
             <p>{pack.caption}</p>
             <div class="pricing-subitem">

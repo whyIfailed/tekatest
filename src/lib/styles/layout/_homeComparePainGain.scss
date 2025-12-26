@@ -1,0 +1,131 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+.projectDev-section , .agencyBroker-section, .individualBroker-section {
+   .background-photo {
+      border-radius: 0 20px 20px 20px;
+      overflow: hidden;
+      img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+      }
+
+   }
+}
+
+.comparePainGain-section {
+
+   @include respond-to(xs) {
+      margin-top: 72px;
+      margin-bottom: 48px;
+   }
+   @include respond-to(sm) {
+      
+   }
+   @include respond-to(md) {
+      margin-bottom: 0px;
+   }
+   @include respond-to(lg) {
+      margin-top: 64px;
+   }
+   @include respond-to(xl) {
+
+   }
+
+   .cards {
+      @include respond-to(xs) {
+         margin-top: 24px;
+         margin-bottom: 48px;
+      }
+      @include respond-to(sm) {
+         
+      }
+      @include respond-to(md) {
+         margin-bottom: 0px;
+      }
+      @include respond-to(lg) {
+         margin-top: 64px;
+      }
+      @include respond-to(xl) {
+
+      }
+
+      .compare-card {
+         position: relative;
+         // border: 1px solid #eee;
+         background: white;
+         @include respond-to(sm) {
+            border-radius: 0 12px 12px 12px;
+            .image {
+               height:200px;
+               width: 100%;
+            }
+         }
+         @include respond-to(md) {}
+         @include respond-to(lg) {
+            border-radius: 0 20px 20px 20px;
+            .image {
+               height: 100%;
+               width: 100%;
+               max-width: 200px;
+               background: white;
+               border: solid .2px #ddd;
+               overflow: hidden;
+               border-radius: 0 20px 20px 20px;
+               img {
+                  object-fit: cover;
+                  width: 100%;
+                  height: 100%;
+               }
+            }
+         }
+         @include respond-to(xl) {}
+         .main {
+            padding-bottom: 16px;
+            border-bottom: 1px solid #ddd;
+            .content {
+               .title {
+                  color: red;
+                  h4 {
+                     font-size: 1rem;
+                     font-weight: bold;
+                     text-transform: capitalize;
+                  }
+               }
+               .text {
+                  h4 {
+                     text-transform: capitalize;
+                     color: var(--color-primary-text);
+                     font-size: 1.1rem;
+                     font-weight: bold;
+                  }
+               }
+            }
+         }
+         .sub {
+            padding-top: 16px;
+            .content {
+               .title {
+                  color: rgb(13, 184, 93);
+                  h4 {
+                     text-transform: capitalize;
+                     font-size: 1rem;
+                     font-weight: bold;
+                  }
+               }
+               .text {
+                  h4 {
+                     text-transform: capitalize;
+                     color: var(--color-primary-text);
+                     font-size: 1.1rem;
+                     font-weight: bold;
+                  }
+               }
+            }
+         }
+      }
+
+   }
+
+}

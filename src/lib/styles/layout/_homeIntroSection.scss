@@ -72,7 +72,6 @@
          overflow: visible;
          z-index: 1;
          position: relative;
-         height: 100%;
          font-size: 38px;
          margin-top: 32px;
          margin-bottom: 32px;
@@ -83,7 +82,6 @@
       @include respond-to(md) {
       }
       @include respond-to(lg) {
-         // font-size: 34px;
          margin-top: 12px;
          margin-bottom: 0;
          position: relative;
@@ -96,7 +94,6 @@
       }
       &:before {
          @include respond-to(xs) {
-            content: "công cụ hỗ trợ dành cho môi giới chuyên nghiệp";
             @include text-shadow-teka;
             font-family: 'Saira', sans-serif;
             text-transform: uppercase;
@@ -210,7 +207,7 @@
 
    .features-wrapper {
       @include respond-to(xs) {
-         width: 100%;
+         // width: 100%;
          @include flex-column-base;
          align-items: center;
          gap: 4px;
@@ -226,16 +223,16 @@
          align-items: center;
          justify-content: flex-end;
          gap: 16px;
-         width: 100%;
+         // width: 100%;
          top: -108px;
       }
       @include respond-to(lg) {
-         width: 59%;
+         // width: 59%;
          top: -48px;
          justify-content: flex-start;
       }
       @include respond-to(xl) {
-         width: 55%;
+         // width: 55%;
       }
       
       .feature-col {
@@ -259,7 +256,7 @@
             width: 200px;
             transition: all 300ms ease-in-out;
             height: 0;
-            opacity: 0;
+            // opacity: 0;
          }
          @include respond-to(lg) {
             background-size: 130%;
@@ -373,28 +370,29 @@
 
       .feature-col:first-child {
          @include respond-to(xs) {
-            // height: 118px;
+            height: 118px;
          } 
          @include respond-to(sm) { } 
             
          @include respond-to(md) { 
-            // height: 304px;
+            height: 304px;
          } 
          @include respond-to(lg) { 
-            // height: 404px;
+            height: 404px;
             // height: 10%;
          } 
          @include respond-to(xl) { }
       }
       .feature-col:nth-child(2) {
-       @include respond-to(xs) {
+         @include respond-to(xs) {
+            height: 200px;
          } 
          @include respond-to(sm) { } 
          @include respond-to(md) {
-            // height: 504px;
+            height: 504px;
          } 
          @include respond-to(lg) { 
-            // height: 564px;
+            height: 564px;
             // height: 15%;
          } 
          @include respond-to(xl) { 
@@ -403,15 +401,16 @@
       }
       .feature-col:last-child {
          @include respond-to(xs) {
+            height: 208px;
          } 
          @include respond-to(sm) {
          } 
          @include respond-to(md) {
-            // height: 320px;
+            height: 320px;
          } 
          @include respond-to(lg) { 
             // height: 12%;
-            // height: 380px;
+            height: 380px;
          } 
          @include respond-to(xl) { }
       }

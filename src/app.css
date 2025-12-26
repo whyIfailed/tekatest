@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+/* Force include responsive classes */
+@layer utilities {
+  .test-sm { @apply sm:bg-red-500; }
+  .test-md { @apply md:bg-blue-500; }
+  .test-lg { @apply lg:bg-green-500; }
+}
